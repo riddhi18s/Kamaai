@@ -1,0 +1,156 @@
+/* ============================================================
+   KAMAII — GLOBAL STYLES
+   App-wide rules that don't belong to any one component.
+   ============================================================ */
+
+/* ----------------------------------------------------------
+   BODY
+   ---------------------------------------------------------- */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------------------------
+   ROOT APP CONTAINER
+   ---------------------------------------------------------- */
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------------------------------------------------------
+   FOCUS — Visible for keyboard and assistive tech
+   ---------------------------------------------------------- */
+:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+  border-radius: var(--radius-sm);
+}
+
+/* Remove outline for mouse users */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ----------------------------------------------------------
+   SELECTION
+   ---------------------------------------------------------- */
+::selection {
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary);
+}
+
+/* ----------------------------------------------------------
+   SCROLLBAR — Minimal, warm-toned
+   ---------------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-tertiary);
+}
+
+/* ----------------------------------------------------------
+   LAYOUT UTILITIES
+   ---------------------------------------------------------- */
+.page-container {
+  width: 100%;
+  max-width: var(--max-width-mobile);
+  margin: 0 auto;
+  min-height: 100dvh;
+  padding: var(--page-padding-y) var(--page-padding-x);
+  padding-bottom: calc(var(--bottom-nav-height) + var(--page-padding-y));
+  box-sizing: border-box;
+}
+
+.content-container {
+  width: 100%;
+  max-width: var(--max-width-mobile);
+  margin: 0 auto;
+  padding: 0 var(--page-padding-x);
+  box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------
+   SPACING UTILITIES
+   ---------------------------------------------------------- */
+.mt-auto  { margin-top: auto; }
+.mb-auto  { margin-bottom: auto; }
+.mx-auto  { margin-left: auto; margin-right: auto; }
+
+.gap-1  { gap: var(--space-1); }
+.gap-2  { gap: var(--space-2); }
+.gap-3  { gap: var(--space-3); }
+.gap-4  { gap: var(--space-4); }
+.gap-6  { gap: var(--space-6); }
+.gap-8  { gap: var(--space-8); }
+
+/* ----------------------------------------------------------
+   FLEX UTILITIES
+   ---------------------------------------------------------- */
+.flex         { display: flex; }
+.flex-col     { display: flex; flex-direction: column; }
+.flex-center  { display: flex; align-items: center; justify-content: center; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.flex-1       { flex: 1; }
+.w-full       { width: 100%; }
+
+/* ----------------------------------------------------------
+   VISIBILITY
+   ---------------------------------------------------------- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ----------------------------------------------------------
+   SURFACE UTILITIES
+   ---------------------------------------------------------- */
+.surface {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--color-border);
+  border: none;
+  margin: var(--space-4) 0;
+}
+
+/* ----------------------------------------------------------
+   REDUCED MOTION
+   ---------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

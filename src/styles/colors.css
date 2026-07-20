@@ -1,0 +1,140 @@
+/* ============================================================
+   KAMAII — COLOR SYSTEM
+   All colors live here. Nothing is hardcoded elsewhere.
+   ============================================================ */
+
+:root {
+
+  /* ----------------------------------------------------------
+     RAW PALETTE
+     Named by hue + shade. Referenced by semantic tokens below.
+     ---------------------------------------------------------- */
+
+  /* Greens — primary brand */
+  --green-50:  #F0FDF0;
+  --green-100: #DCFCE7;
+  --green-200: #BBF7C8;
+  --green-300: #86EFAC;
+  --green-400: #4ADE80;
+  --green-500: #22C55E;
+  --green-600: #16A34A;
+  --green-700: #15803D;
+  --green-800: #2E7D32;
+  --green-900: #1A5C27;
+
+  /* Oranges — accent, CTA, warnings */
+  --orange-50:  #FFF7ED;
+  --orange-100: #FFEDD5;
+  --orange-200: #FED7AA;
+  --orange-300: #FDBA74;
+  --orange-400: #FB923C;
+  --orange-500: #F97316;
+  --orange-600: #E67E22;
+  --orange-700: #C2610C;
+  --orange-800: #9A3C00;
+
+  /* Warm neutrals — backgrounds, surfaces */
+  --warm-50:  #FFFDF7;
+  --warm-100: #FFF8EA;
+  --warm-200: #FEF3D0;
+  --warm-300: #FDE8B0;
+  --warm-400: #F5D788;
+
+  /* Cool greys — text, borders */
+  --grey-50:  #F9FAFB;
+  --grey-100: #F3F4F6;
+  --grey-200: #E5E7EB;
+  --grey-300: #D1D5DB;
+  --grey-400: #9CA3AF;
+  --grey-500: #6B7280;
+  --grey-600: #4B5563;
+  --grey-700: #374151;
+  --grey-800: #1F2937;
+  --grey-900: #111827;
+
+  /* Status */
+  --red-50:   #FEF2F2;
+  --red-100:  #FEE2E2;
+  --red-500:  #EF4444;
+  --red-600:  #DC2626;
+  --red-700:  #B91C1C;
+
+  --yellow-50:  #FEFCE8;
+  --yellow-100: #FEF9C3;
+  --yellow-500: #EAB308;
+  --yellow-600: #CA8A04;
+
+  --blue-50:  #EFF6FF;
+  --blue-100: #DBEAFE;
+  --blue-500: #3B82F6;
+  --blue-600: #2563EB;
+
+  /* ----------------------------------------------------------
+     SEMANTIC TOKENS
+     Use ONLY these in components — never the raw palette.
+     ---------------------------------------------------------- */
+
+  /* Brand */
+  --color-primary:         var(--green-800);
+  --color-primary-light:   var(--green-600);
+  --color-primary-lighter: var(--green-400);
+  --color-primary-bg:      var(--green-50);
+  --color-primary-border:  var(--green-200);
+
+  --color-accent:          var(--orange-600);
+  --color-accent-light:    var(--orange-400);
+  --color-accent-bg:       var(--orange-50);
+  --color-accent-border:   var(--orange-200);
+
+  /* Backgrounds */
+  --color-bg:              var(--warm-100);  /* Page background */
+  --color-bg-subtle:       var(--warm-50);   /* Slightly lighter */
+  --color-surface:         #FFFFFF;           /* Cards, sheets */
+  --color-surface-raised:  #FFFFFF;           /* Modals, overlays */
+  --color-surface-sunken:  var(--warm-200);   /* Input backgrounds */
+  --color-overlay:         rgba(17, 24, 39, 0.50);
+
+  /* Text */
+  --color-text-primary:    var(--grey-800);
+  --color-text-secondary:  var(--grey-500);
+  --color-text-tertiary:   var(--grey-400);
+  --color-text-disabled:   var(--grey-300);
+  --color-text-inverse:    #FFFFFF;
+  --color-text-brand:      var(--green-800);
+  --color-text-accent:     var(--orange-600);
+
+  /* Borders */
+  --color-border:          var(--grey-200);
+  --color-border-subtle:   var(--grey-100);
+  --color-border-strong:   var(--grey-300);
+  --color-border-brand:    var(--green-700);
+  --color-border-accent:   var(--orange-600);
+
+  /* Interactive states */
+  --color-hover-bg:        var(--grey-50);
+  --color-pressed-bg:      var(--grey-100);
+  --color-selected-bg:     var(--green-50);
+  --color-selected-border: var(--green-700);
+
+  /* Status */
+  --color-success:         var(--green-600);
+  --color-success-bg:      var(--green-50);
+  --color-success-border:  var(--green-200);
+
+  --color-error:           var(--red-600);
+  --color-error-bg:        var(--red-50);
+  --color-error-border:    var(--red-100);
+
+  --color-warning:         var(--yellow-600);
+  --color-warning-bg:      var(--yellow-50);
+  --color-warning-border:  var(--yellow-100);
+
+  --color-info:            var(--blue-600);
+  --color-info-bg:         var(--blue-50);
+  --color-info-border:     var(--blue-100);
+
+  /* Skeleton / loading */
+  --color-skeleton-base:   var(--grey-100);
+  --color-skeleton-shine:  var(--grey-200);
+
+}

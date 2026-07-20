@@ -1,0 +1,42 @@
+{
+  "@@locale": "en",
+
+  "appName": "Kamaai",
+
+  "continueButton": "Continue",
+  "cancel": "Cancel",
+  "back": "Back",
+  "next": "Next",
+  "save": "Save",
+  "done": "Done",
+  "yes": "Yes",
+  "no": "No",
+  "close": "Close",
+
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Create Account",
+
+  "phoneNumber": "Mobile Number",
+  "enterPhoneNumber": "Enter your mobile number",
+
+  "sendOtp": "Send OTP",
+  "enterOtp": "Enter OTP",
+  "verify": "Verify",
+
+  "createPassword": "Create Password",
+  "confirmPassword": "Confirm Password",
+
+  "search": "Search",
+  "language": "Language",
+
+  "home": "Home",
+  "jobs": "Jobs",
+  "profile": "Profile",
+  "settings": "Settings",
+  "notifications": "Notifications",
+
+  "somethingWentWrong": "Something went wrong",
+  "tryAgain": "Try Again",
+  "loading": "Loading..."
+}
