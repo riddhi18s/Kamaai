@@ -49,3 +49,9 @@ node_modules/
 dist/
 .env
 .env.*
+
+# Firebase / mobile secrets
+frontend/android/app/google-services.json
+frontend/lib/firebase_options.dart
+frontend/**/GoogleService-Info.plist
+frontend/**/google-services.json
