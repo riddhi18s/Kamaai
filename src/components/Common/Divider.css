@@ -1,0 +1,38 @@
+.divider--horizontal {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+.divider--horizontal::before,
+.divider--horizontal::after {
+  content: "";
+  flex: 1;
+  height: var(--border-width-thin);
+  background: var(--color-border);
+}
+
+.divider--horizontal:not(:has(.divider__label))::after { display: none; }
+
+.divider--sm { margin: var(--space-2) 0; }
+.divider--md { margin: var(--space-4) 0; }
+.divider--lg { margin: var(--space-8) 0; }
+
+.divider__label {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-tertiary);
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+}
+
+.divider--vertical {
+  display: inline-block;
+  width: var(--border-width-thin);
+  height: 1em;
+  background: var(--color-border);
+  margin: 0 var(--space-2);
+  vertical-align: middle;
+}
