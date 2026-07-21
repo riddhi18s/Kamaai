@@ -1,0 +1,23 @@
+# Flutter / Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.idea/
+**/.vscode/
+**/android/.gradle/
+**/ios/Pods/
+**/macos/Pods/
+**/coverage/
+
+# React / Node
+node_modules/
+dist/
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
