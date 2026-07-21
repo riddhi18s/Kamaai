@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/phone_number_card.dart';
+import '../../../../core/localization/language_model.dart';
+
+import '../widgets/phone_input_card.dart';
 import '../widgets/otp_verification_card.dart';
 import '../widgets/password_card.dart';
 import '../widgets/welcome_message_card.dart';
@@ -16,6 +18,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
   bool otpSent = false;
   bool otpVerified = false;
   bool passwordsValid = false;
+
+  // TODO:
+  // Replace this with your actual selected language
+  late LanguageModel currentLanguage;
 
   @override
   Widget build(BuildContext context) {
@@ -48,11 +54,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
               const SizedBox(height: 25),
 
-              const WelcomeMessageCard(),
+              WelcomeMessageCard(
+                language: currentLanguage,
+              ),
 
               const SizedBox(height: 28),
 
-              PhoneNumberCard(
+              PhoneInputCard(
                 onOtpSent: () {
                   setState(() {
                     otpSent = true;

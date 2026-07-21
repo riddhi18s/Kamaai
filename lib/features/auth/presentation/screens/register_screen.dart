@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kamaai/generated/app_localizations.dart';
 
 import '../widgets/phone_number_card.dart';
 import '../widgets/otp_verification_card.dart';
@@ -18,12 +19,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Scaffold(
       backgroundColor: const Color(0xffF6F5F2),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        title: const Text("Create Account"),
+        title: Text(l10n.createAccount),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -69,7 +72,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     onPressed: () {
                       Navigator.pop(context);
                     },
-                    child: const Text("Continue"),
+                    child: Text(l10n.continueButton),
                   ),
                 ),
             ],

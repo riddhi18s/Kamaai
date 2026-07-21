@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kamaai/generated/app_localizations.dart';
 
 class OtpVerificationCard extends StatefulWidget {
   final VoidCallback onVerified;
@@ -32,9 +33,9 @@ class _OtpVerificationCardState
     if (otpController.text.trim().length != 6) {
 
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
+        SnackBar(
           content: Text(
-            "Enter a valid 6-digit OTP",
+            l10n.invalidOtpMessage,
           ),
         ),
       );
@@ -60,6 +61,8 @@ class _OtpVerificationCardState
   @override
   Widget build(BuildContext context) {
 
+    final l10n = AppLocalizations.of(context)!;
+
     return Card(
 
       elevation: 2,
@@ -79,9 +82,9 @@ class _OtpVerificationCardState
 
           children: [
 
-            const Text(
+            Text(
 
-              "OTP Verification",
+              l10n.otpVerificationTitle,
 
               style: TextStyle(
                 fontSize: 18,
@@ -107,9 +110,9 @@ class _OtpVerificationCardState
 
                     maxLength: 6,
 
-                    decoration: const InputDecoration(
+                    decoration: InputDecoration(
 
-                      hintText: "Enter OTP",
+                      hintText: l10n.enterOtpHint,
 
                       counterText: "",
 
@@ -141,8 +144,8 @@ class _OtpVerificationCardState
                               strokeWidth: 2,
                             ),
                           )
-                        : const Text(
-                            "Verify",
+                        : Text(
+                            l10n.verifyButton,
                           ),
 
                   ),

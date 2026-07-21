@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../../../language/data/stt_service.dart';
 
-import '../../domain/auth_text_model.dart';
+import 'package:kamaai/generated/app_localizations.dart';
 
 
 
 class VoiceAuthCard extends StatefulWidget {
 
 
-  final AuthTextModel texts;
+  final String speechLocale;
 
   final Function(String text) onVoiceResult;
 
@@ -19,7 +19,7 @@ class VoiceAuthCard extends StatefulWidget {
 
     super.key,
 
-    required this.texts,
+    required this.speechLocale,
 
     required this.onVoiceResult,
 
@@ -82,7 +82,7 @@ class _VoiceAuthCardState
 
       localeId:
 
-          widget.texts.speechLocale,
+          widget.speechLocale,
 
 
 
@@ -207,7 +207,7 @@ class _VoiceAuthCardState
   @override
   Widget build(BuildContext context) {
 
-
+    final l10n = AppLocalizations.of(context)!;
 
     return Container(
 
@@ -473,7 +473,7 @@ class _VoiceAuthCardState
 
 
 
-            widget.texts.voiceText,
+            l10n.voiceText,
 
 
 
@@ -531,7 +531,7 @@ class _VoiceAuthCardState
 
 
 
-            widget.texts.voiceHinglish,
+            l10n.voiceHinglish,
 
 
 
@@ -596,7 +596,7 @@ class _VoiceAuthCardState
 
 
 
-              widget.texts.voiceListeningText,
+              l10n.voiceListeningText,
 
 
 
@@ -643,7 +643,7 @@ class _VoiceAuthCardState
 
 
 
-                widget.texts.voiceCancelText,
+                l10n.voiceCancelText,
 
 
 

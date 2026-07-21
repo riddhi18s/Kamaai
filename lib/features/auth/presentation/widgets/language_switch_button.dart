@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:kamaai/generated/app_localizations.dart';
 import '../../../language/presentation/screens/language_selection_screen.dart';
 
 
@@ -7,19 +8,9 @@ import '../../../language/presentation/screens/language_selection_screen.dart';
 class LanguageSwitchButton extends StatelessWidget {
 
 
-  final String title;
-
-  final String hinglishText;
-
-
-
   const LanguageSwitchButton({
 
     super.key,
-
-    required this.title,
-
-    required this.hinglishText,
 
   });
 
@@ -30,6 +21,7 @@ class LanguageSwitchButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+    final l10n = AppLocalizations.of(context)!;
 
     return InkWell(
 
@@ -219,7 +211,7 @@ class LanguageSwitchButton extends StatelessWidget {
                   Text(
 
 
-                    title,
+                    l10n.languageChangeText,
 
 
                     maxLines:
@@ -258,7 +250,7 @@ class LanguageSwitchButton extends StatelessWidget {
                   Text(
 
 
-                    hinglishText,
+                    l10n.languageChangeHinglish,
 
 
 

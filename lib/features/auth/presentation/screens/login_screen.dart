@@ -5,8 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../language/presentation/providers/language_provider.dart';
 
 
-import '../../data/auth_text_data.dart';
-import '../../domain/auth_text_model.dart';
+import '../../../../generated/app_localizations.dart';
 
 
 import '../widgets/language_switch_button.dart';

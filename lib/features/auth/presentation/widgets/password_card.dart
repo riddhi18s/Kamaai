@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kamaai/generated/app_localizations.dart';
 
 class PasswordCard extends StatefulWidget {
   final ValueChanged<bool> onValid;
@@ -41,6 +42,8 @@ class _PasswordCardState extends State<PasswordCard> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Card(
       elevation: 2,
 
@@ -56,8 +59,8 @@ class _PasswordCardState extends State<PasswordCard> {
               CrossAxisAlignment.start,
 
           children: [
-            const Text(
-              "Create Password",
+            Text(
+              l10n.createPasswordTitle,
 
               style: TextStyle(
                 fontSize: 18,
@@ -74,7 +77,7 @@ class _PasswordCardState extends State<PasswordCard> {
               onChanged: (_) => validatePasswords(),
 
               decoration: InputDecoration(
-                hintText: "Enter Password",
+                hintText: l10n.enterPasswordHint,
 
                 border: const OutlineInputBorder(),
 
@@ -105,7 +108,7 @@ class _PasswordCardState extends State<PasswordCard> {
               onChanged: (_) => validatePasswords(),
 
               decoration: InputDecoration(
-                hintText: "Confirm Password",
+                hintText: l10n.confirmPasswordHint,
 
                 border: const OutlineInputBorder(),
 
@@ -160,8 +163,8 @@ class _PasswordCardState extends State<PasswordCard> {
 
                     Text(
                       matched
-                          ? "Passwords match"
-                          : "Passwords do not match",
+                          ? l10n.passwordsMatch
+                          : l10n.passwordsDoNotMatch,
 
                       style: TextStyle(
                         color: matched

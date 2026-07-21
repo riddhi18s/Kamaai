@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/localization/language_model.dart';
 import '../../../language/data/tts_service.dart';
 
-import '../../data/auth_text_data.dart';
-import '../../domain/auth_text_model.dart';
+import 'package:kamaai/generated/app_localizations.dart';
 
 
 
@@ -47,14 +46,6 @@ class _WelcomeMessageCardState
 
 
 
-
-  AuthTextModel get texts =>
-
-      authTexts[widget.language.code]
-
-      ??
-
-      authTexts["hi"]!;
 
 
 
@@ -120,7 +111,7 @@ class _WelcomeMessageCardState
 
       text:
 
-          texts.fullPageSpeechText,
+          l10n.fullPageSpeechText,
 
 
 
@@ -190,7 +181,7 @@ class _WelcomeMessageCardState
   @override
   Widget build(BuildContext context) {
 
-
+    final l10n = AppLocalizations.of(context)!;
 
     return Container(
 
@@ -418,7 +409,7 @@ class _WelcomeMessageCardState
 
 
 
-            texts.welcomeTitle,
+            l10n.welcomeTitle,
 
 
 
@@ -478,7 +469,7 @@ class _WelcomeMessageCardState
 
 
 
-            texts.welcomeHinglish,
+            l10n.welcomeHinglish,
 
 
 
@@ -562,7 +553,7 @@ class _WelcomeMessageCardState
 
 
 
-            texts.instructionText,
+            l10n.instructionText,
 
 
 
@@ -614,7 +605,7 @@ class _WelcomeMessageCardState
 
 
 
-            texts.instructionHinglish,
+            l10n.instructionHinglish,
 
 
 

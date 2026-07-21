@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../language/domain/language_model.dart';
 import '../../../language/data/tts_service.dart';
 
-import '../../data/auth_text_data.dart';
-import '../../domain/auth_text_model.dart';
+import '../../../../generated/app_localizations.dart';
 
 
 
