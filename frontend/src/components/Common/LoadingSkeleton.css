@@ -1,0 +1,51 @@
+/* Base shimmer — defined in animations.css as .skeleton */
+
+.skeleton--circle {
+  border-radius: var(--radius-full);
+  width: 40px;
+  height: 40px;
+}
+
+.skeleton--rect {
+  border-radius: var(--radius-sm);
+  width: 100%;
+  height: 16px;
+}
+
+/* Text group */
+.skeleton-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.skeleton-text {
+  height: 14px;
+  border-radius: var(--radius-sm);
+}
+
+/* Card skeleton */
+.skeleton-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: var(--border-width-thin) solid var(--color-border);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.skeleton-card__header {
+  width: 40%;
+  height: 20px;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-card__line {
+  height: 12px;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-card__line--long  { width: 100%; }
+.skeleton-card__line--short { width: 60%; }

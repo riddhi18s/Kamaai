@@ -1,0 +1,25 @@
+/* ============================================================
+   LOCALIZED TEXT — imported by LocalizedText.jsx
+   ============================================================ */
+
+.localized-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.localized-native {
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+  margin: 0;
+}
+
+.localized-roman {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  font-weight: var(--weight-normal);
+  line-height: var(--leading-normal);
+  margin: 0;
+}

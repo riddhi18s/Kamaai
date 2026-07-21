@@ -1,0 +1,83 @@
+/* ============================================================
+   CARD COMPONENT
+   ============================================================ */
+
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: var(--border-width-thin) solid var(--color-border);
+  overflow: hidden;
+  transition:
+    box-shadow   var(--transition-base),
+    border-color var(--transition-base),
+    transform    var(--transition-spring);
+}
+
+/* Variants */
+.card--flat {
+  box-shadow: none;
+}
+
+.card--raised {
+  box-shadow: var(--shadow-sm);
+  border-color: transparent;
+}
+
+.card--elevated {
+  box-shadow: var(--shadow-md);
+  border-color: transparent;
+}
+
+.card--outlined {
+  box-shadow: none;
+  border-color: var(--color-border);
+}
+
+/* Interactive card */
+.card--pressable {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.card--pressable:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-border-strong);
+  transform: translateY(-2px);
+}
+
+.card--pressable:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: var(--shadow-xs);
+}
+
+/* Selected state */
+.card--selected {
+  border-color: var(--color-border-brand);
+  background: var(--color-selected-bg);
+  box-shadow: 0 0 0 1px var(--color-border-brand);
+}
+
+/* Padding sizes */
+.card__body {
+  padding: var(--space-4);
+}
+
+.card__body--sm  { padding: var(--space-3); }
+.card__body--md  { padding: var(--space-4); }
+.card__body--lg  { padding: var(--space-6); }
+.card__body--none{ padding: 0; }
+
+.card__header {
+  padding: var(--space-4);
+  border-bottom: var(--border-width-thin) solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.card__footer {
+  padding: var(--space-4);
+  border-top: var(--border-width-thin) solid var(--color-border);
+}
