@@ -1,27 +1,43 @@
 import 'package:hive/hive.dart';
 
 class StorageService {
-  static final Box _box = Hive.box("settings");
+  static const _boxName = "settings";
+
+  static const _languageKey = "language";
+  static const _languageSelectedKey = "language_selected";
+
+  static Box get _box => Hive.box(_boxName);
+
+  // -------------------------
+  // Language
+  // -------------------------
 
   static Future<void> saveLanguage(String code) async {
-    await _box.put("language", code);
+    await _box.put(_languageKey, code);
   }
 
   static String? getLanguage() {
-    return _box.get("language");
+    return _box.get(_languageKey) as String?;
   }
 
+  // -------------------------
+  // Language Selection Status
+  // -------------------------
+
   static Future<void> setLanguageSelected(bool value) async {
-    await _box.put("language_selected", value);
+    await _box.put(_languageSelectedKey, value);
   }
 
   static bool isLanguageSelected() {
     return _box.get(
-          "language_selected",
+          _languageSelectedKey,
           defaultValue: false,
-        ) ??
-        false;
+        ) as bool;
   }
+
+  // -------------------------
+  // Clear Storage
+  // -------------------------
 
   static Future<void> clear() async {
     await _box.clear();

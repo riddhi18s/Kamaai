@@ -1,3 +1,2713 @@
 {
-  "@@locale": "hi"
+  "@@locale": "hi",
+
+  "appName": "कमाई",
+
+  "continueButton": "आगे बढ़ें",
+  "cancel": "रद्द करें",
+  "back": "वापस",
+  "next": "अगला",
+  "save": "सहेजें",
+  "done": "पूर्ण",
+  "yes": "हाँ",
+  "no": "नहीं",
+  "close": "बंद करें",
+
+  "login": "लॉगिन",
+  "logout": "लॉगआउट",
+  "register": "खाता बनाएँ",
+
+  "phoneNumber": "मोबाइल नंबर",
+  "enterPhoneNumber": "अपना मोबाइल नंबर दर्ज करें",
+
+  "sendOtp": "ओटीपी भेजें",
+  "enterOtp": "ओटीपी दर्ज करें",
+  "verify": "सत्यापित करें",
+
+  "createPassword": "पासवर्ड बनाएँ",
+  "confirmPassword": "पासवर्ड की पुष्टि करें",
+
+  "search": "खोजें",
+  "language": "भाषा",
+
+  "home": "होम",
+  "jobs": "काम",
+  "profile": "प्रोफ़ाइल",
+  "settings": "सेटिंग्स",
+  "notifications": "सूचनाएँ",
+
+  "somethingWentWrong": "कुछ गलत हो गया",
+  "tryAgain": "फिर से प्रयास करें",
+  "loading": "लोड हो रहा है...",
+
+  "state": "राज्य",
+  "district": "जिला",
+  "selectState": "राज्य चुनें",
+  "selectDistrict": "जिला चुनें",
+
+  "stateAndamanNicobar": "अंडमान और निकोबार द्वीपसमूह",
+  "stateAndhraPradesh": "आंध्र प्रदेश",
+  "stateArunachalPradesh": "अरुणाचल प्रदेश",
+  "stateAssam": "असम",
+  "stateBihar": "बिहार",
+  "stateChandigarh": "चंडीगढ़",
+  "stateChhattisgarh": "छत्तीसगढ़",
+  "stateDadraDamanDiu": "दादरा और नगर हवेली तथा दमन और दीव",
+  "stateDelhi": "दिल्ली",
+  "stateGoa": "गोवा",
+  "stateGujarat": "गुजरात",
+  "stateHaryana": "हरियाणा",
+  "stateHimachalPradesh": "हिमाचल प्रदेश",
+  "stateJharkhand": "झारखंड",
+  "stateJammuKashmir": "जम्मू और कश्मीर",
+  "stateKarnataka": "कर्नाटक",
+  "stateKerala": "केरल",
+  "stateLadakh": "लद्दाख",
+  "stateLakshadweep": "लक्षद्वीप",
+  "stateMadhyaPradesh": "मध्य प्रदेश",
+  "stateMaharashtra": "महाराष्ट्र",
+  "stateManipur": "मणिपुर",
+  "stateMeghalaya": "मेघालय",
+  "stateMizoram": "मिजोरम",
+  "stateNagaland": "नागालैंड",
+  "stateOdisha": "ओडिशा",
+  "statePunjab": "पंजाब",
+  "statePuducherry": "पुडुचेरी",
+  "stateRajasthan": "राजस्थान",
+  "stateSikkim": "सिक्किम",
+  "stateTamilNadu": "तमिलनाडु",
+  "stateTelangana": "तेलंगाना",
+  "stateTripura": "त्रिपुरा",
+  "stateUttarPradesh": "उत्तर प्रदेश",
+  "stateUttarakhand": "उत्तराखंड",
+  "stateWestBengal": "पश्चिम बंगाल",
+
+  "genderMale": "पुरुष",
+  "genderFemale": "महिला",
+  "genderOther": "अन्य",
+
+  "phoneSubtitle": "जारी रखने के लिए अपना मोबाइल नंबर दर्ज करें।",
+  "verifyOtp": "ओटीपी सत्यापित करें",
+  "otpSubtitle": "अपने मोबाइल पर भेजा गया ओटीपी दर्ज करें।",
+  "passwordSubtitle": "अपने खाते के लिए एक सुरक्षित पासवर्ड बनाएं।",
+  "password": "पासवर्ड",
+  "passwordNotMatch": "पासवर्ड मेल नहीं खाते।",
+  "passwordRequirement": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए।",
+  "continueText": "आगे बढ़ें",
+  "otpInfo": "सत्यापन के लिए एक ओटीपी भेजा जाएगा।",
+  "otpSentTo": "ओटीपी भेजा गया",
+  "resendOtp": "ओटीपी पुनः भेजें",
+  "changePhoneNumber": "मोबाइल नंबर बदलें",
+
+  "name": "नाम",
+  "enterName": "कृपया अपना नाम दर्ज करें",
+  "address": "पता",
+  "enterAddress": "कृपया अपना पता दर्ज करें",
+  "locationNotSelected": "स्थान चयनित नहीं है",
+  "detectLocation": "स्थान पता करें",
+
+  "authSelectionSubtitle": "काम खोजें • काम दें • साथ मिलकर आगे बढ़ें",
+  "createAccount": "नया खाता",
+  "createAccountSubtitle": "नया खाता बनाकर अपनी कमाई शुरू करें।",
+  "loginSubtitle": "पहले से खाता है? यहाँ से लॉगिन करें।",
+  "voiceAssistant": "आवाज़ सहायक",
+  "voiceAssistantSubtitle": "माइक दबाएँ और कहें - लॉगिन, नया खाता या भाषा बदलें।",
+  "voiceCommandNotRecognized": "क्षमा करें, आपकी आवाज़ समझ नहीं आई।",
+
+  "enterPhoneTitle": "अपना फ़ोन नंबर दर्ज करें",
+  "enterPhoneSubtitle": "जारी रखने के लिए हम आपके फ़ोन पर सत्यापन कोड भेजेंगे।",
+
+  "alreadyRegistered": "पहले से पंजीकृत हैं?",
+
+  "profileTitle": "अपनी प्रोफ़ाइल पूरी करें",
+  "profileSubtitle": "लगभग हो गया! अपने बारे में कुछ जानकारी दें।",
+
+  "personalDetails": "व्यक्तिगत जानकारी",
+  "aboutYou": "आपके बारे में",
+  "locationSection": "स्थान",
+
+  "fullName": "पूरा नाम",
+  "fullAddress": "पूरा पता",
+
+  "profilePhoto": "प्रोफ़ाइल फ़ोटो",
+  "addPhoto": "फ़ोटो जोड़ें",
+  "profilePhotoOptional": "प्रोफ़ाइल फ़ोटो जोड़ें (वैकल्पिक)",
+
+  "gender": "लिंग",
+  "selectGender": "लिंग चुनें",
+
+  "male": "पुरुष",
+  "female": "महिला",
+  "other": "अन्य",
+
+  "occupation": "पेशा",
+  "selectOccupation": "पेशा चुनें",
+
+  "profileContinue": "आगे बढ़ें",
+
+  "profileSaved": "प्रोफ़ाइल सफलतापूर्वक सहेजी गई",
+
+  "kaamKhataTitle": "काम खाता",
+  "kaamKhataSubtitle": "Apne paiso ka hisaab rakho",
+
+  "kaamDoDhundoTitle": "काम दो / ढूंढो",
+  "kaamDoDhundoSubtitle": "Kaam dijiye ya kaam khojiye",
+
+  "haathKaKaamTitle": "हाथ का काम",
+  "haathKaKaamSubtitle": "Apna hunar dikhaiye aur bechiye",
+
+  "mandiBhavTitle": "मंडी भाव",
+  "mandiBhavSubtitle": "Aaj ke mandi ke daam dekhiye",
+
+  "kaamDoDhundo": "काम दो / ढूंढो",
+
+  "totalEarnings": "कुल कमाई",
+  "listen": "सुनें",
+
+  "findWork": "काम खोजें",
+  "findWorkSubtitle": "अपने आसपास काम खोजें",
+
+  "hireWorkers": "कामगार खोजें",
+  "hireWorkersSubtitle": "विश्वसनीय कामगार नियुक्त करें",
+
+  "handicrafts": "हस्तशिल्प",
+  "handicraftsSubtitle": "हस्तनिर्मित उत्पाद खरीदें और बेचें",
+
+  "mandi": "मंडी",
+  "mandiSubtitle": "बाज़ार भाव देखें",
+
+  "myJobs": "मेरे काम",
+  "myJobsSubtitle": "अपने कार्य देखें",
+
+  "myEarnings": "मेरी कमाई",
+  "myEarningsSubtitle": "अपनी आय देखें",
+
+  "greeting": "नमस्ते,",
+  "location": "स्थान",
+
+  "dashboardSearchHint": "नौकरी, श्रमिक या उत्पाद खोजें...",
+
+  "latestUpdates": "नवीनतम अपडेट",
+
+  "voiceAssistantHint": "माइक्रोफ़ोन दबाकर आवाज़ से सहायता प्राप्त करें।",
+
+  "user": "उपयोगकर्ता",
+
+  "dashboard": "डैशबोर्ड",
+
+  "kaamKhata": "काम खाता",
+
+  "haathKaKaam": "हाथ का काम",
+
+  "mandiBhav": "मंडी भाव",
+
+  "changeLanguage": "भाषा बदलें",
+
+  "helpSupport": "सहायता एवं समर्थन",
+
+  "notificationsComingSoon": "सूचनाएं जल्द ही आ रही हैं",
+  "districtAdilabad": "Adilabad",
+  "@districtAdilabad": {
+    "description": "District name"
+  },
+  "districtAgra": "Agra",
+  "@districtAgra": {
+    "description": "District name"
+  },
+  "districtAhmedabad": "Ahmedabad",
+  "@districtAhmedabad": {
+    "description": "District name"
+  },
+  "districtAhmednagar": "Ahmednagar",
+  "@districtAhmednagar": {
+    "description": "District name"
+  },
+  "districtAizawalWest": "Aizawal West",
+  "@districtAizawalWest": {
+    "description": "District name"
+  },
+  "districtAizawlEast": "Aizawl East",
+  "@districtAizawlEast": {
+    "description": "District name"
+  },
+  "districtAjmer": "Ajmer",
+  "@districtAjmer": {
+    "description": "District name"
+  },
+  "districtAkola": "Akola",
+  "@districtAkola": {
+    "description": "District name"
+  },
+  "districtAlappuzha": "Alappuzha",
+  "@districtAlappuzha": {
+    "description": "District name"
+  },
+  "districtAligarh": "Aligarh",
+  "@districtAligarh": {
+    "description": "District name"
+  },
+  "districtAlipurduar": "Alipurduar",
+  "@districtAlipurduar": {
+    "description": "District name"
+  },
+  "districtAllahabad": "Allahabad",
+  "@districtAllahabad": {
+    "description": "District name"
+  },
+  "districtAlmora": "Almora",
+  "@districtAlmora": {
+    "description": "District name"
+  },
+  "districtAlwar": "Alwar",
+  "@districtAlwar": {
+    "description": "District name"
+  },
+  "districtAmaravati": "Amaravati",
+  "@districtAmaravati": {
+    "description": "District name"
+  },
+  "districtAmbala": "Ambala",
+  "@districtAmbala": {
+    "description": "District name"
+  },
+  "districtAmbedkarNagar": "Ambedkar Nagar",
+  "@districtAmbedkarNagar": {
+    "description": "District name"
+  },
+  "districtAmreli": "Amreli",
+  "@districtAmreli": {
+    "description": "District name"
+  },
+  "districtAmritsar": "Amritsar",
+  "@districtAmritsar": {
+    "description": "District name"
+  },
+  "districtAnand": "Anand",
+  "@districtAnand": {
+    "description": "District name"
+  },
+  "districtAnantapur": "Anantapur",
+  "@districtAnantapur": {
+    "description": "District name"
+  },
+  "districtAndamanNicobarIs": "Andaman & Nicobar Islands",
+  "@districtAndamanNicobarIs": {
+    "description": "District name"
+  },
+  "districtAngul": "Angul",
+  "@districtAngul": {
+    "description": "District name"
+  },
+  "districtAnjaw": "Anjaw",
+  "@districtAnjaw": {
+    "description": "District name"
+  },
+  "districtAnupur": "Anupur",
+  "@districtAnupur": {
+    "description": "District name"
+  },
+  "districtAranthangi": "Aranthangi",
+  "@districtAranthangi": {
+    "description": "District name"
+  },
+  "districtAraria": "Araria",
+  "@districtAraria": {
+    "description": "District name"
+  },
+  "districtArwal": "Arwal",
+  "@districtArwal": {
+    "description": "District name"
+  },
+  "districtAshokNagar": "Ashok Nagar",
+  "@districtAshokNagar": {
+    "description": "District name"
+  },
+  "districtAuraiya": "Auraiya",
+  "@districtAuraiya": {
+    "description": "District name"
+  },
+  "districtAurangabad": "Aurangabad",
+  "@districtAurangabad": {
+    "description": "District name"
+  },
+  "districtAurangabadBi": "Aurangabad Bi",
+  "@districtAurangabadBi": {
+    "description": "District name"
+  },
+  "districtAzamgarh": "Azamgarh",
+  "@districtAzamgarh": {
+    "description": "District name"
+  },
+  "districtBagalkot": "Bagalkot",
+  "@districtBagalkot": {
+    "description": "District name"
+  },
+  "districtBageshwar": "Bageshwar",
+  "@districtBageshwar": {
+    "description": "District name"
+  },
+  "districtBaghpat": "Baghpat",
+  "@districtBaghpat": {
+    "description": "District name"
+  },
+  "districtBahraich": "Bahraich",
+  "@districtBahraich": {
+    "description": "District name"
+  },
+  "districtBaksa": "Baksa",
+  "@districtBaksa": {
+    "description": "District name"
+  },
+  "districtBalaghat": "Balaghat",
+  "@districtBalaghat": {
+    "description": "District name"
+  },
+  "districtBalangir": "Balangir",
+  "@districtBalangir": {
+    "description": "District name"
+  },
+  "districtBaleshwar": "Baleshwar",
+  "@districtBaleshwar": {
+    "description": "District name"
+  },
+  "districtBallia": "Ballia",
+  "@districtBallia": {
+    "description": "District name"
+  },
+  "districtBalrampur": "Balrampur",
+  "@districtBalrampur": {
+    "description": "District name"
+  },
+  "districtBanaskantha": "Banaskantha",
+  "@districtBanaskantha": {
+    "description": "District name"
+  },
+  "districtBanda": "Banda",
+  "@districtBanda": {
+    "description": "District name"
+  },
+  "districtBangaloreRural": "Bangalore Rural",
+  "@districtBangaloreRural": {
+    "description": "District name"
+  },
+  "districtBangaloreUrban": "Bangalore Urban",
+  "@districtBangaloreUrban": {
+    "description": "District name"
+  },
+  "districtBanka": "Banka",
+  "@districtBanka": {
+    "description": "District name"
+  },
+  "districtBankura": "Bankura",
+  "@districtBankura": {
+    "description": "District name"
+  },
+  "districtBanswara": "Banswara",
+  "@districtBanswara": {
+    "description": "District name"
+  },
+  "districtBarabanki": "Barabanki",
+  "@districtBarabanki": {
+    "description": "District name"
+  },
+  "districtBaramula": "Baramula",
+  "@districtBaramula": {
+    "description": "District name"
+  },
+  "districtBaran": "Baran",
+  "@districtBaran": {
+    "description": "District name"
+  },
+  "districtBareilly": "Bareilly",
+  "@districtBareilly": {
+    "description": "District name"
+  },
+  "districtBargarh": "Bargarh",
+  "@districtBargarh": {
+    "description": "District name"
+  },
+  "districtBarmer": "Barmer",
+  "@districtBarmer": {
+    "description": "District name"
+  },
+  "districtBarnala": "Barnala",
+  "@districtBarnala": {
+    "description": "District name"
+  },
+  "districtBarpeta": "Barpeta",
+  "@districtBarpeta": {
+    "description": "District name"
+  },
+  "districtBarwani": "Barwani",
+  "@districtBarwani": {
+    "description": "District name"
+  },
+  "districtBastar": "Bastar",
+  "@districtBastar": {
+    "description": "District name"
+  },
+  "districtBasti": "Basti",
+  "@districtBasti": {
+    "description": "District name"
+  },
+  "districtBathinda": "Bathinda",
+  "@districtBathinda": {
+    "description": "District name"
+  },
+  "districtBaudh": "Baudh",
+  "@districtBaudh": {
+    "description": "District name"
+  },
+  "districtBeed": "Beed",
+  "@districtBeed": {
+    "description": "District name"
+  },
+  "districtBegusarai": "Begusarai",
+  "@districtBegusarai": {
+    "description": "District name"
+  },
+  "districtBelgaum": "Belgaum",
+  "@districtBelgaum": {
+    "description": "District name"
+  },
+  "districtBellary": "Bellary",
+  "@districtBellary": {
+    "description": "District name"
+  },
+  "districtBetul": "Betul",
+  "@districtBetul": {
+    "description": "District name"
+  },
+  "districtBhadrak": "Bhadrak",
+  "@districtBhadrak": {
+    "description": "District name"
+  },
+  "districtBhagalpur": "Bhagalpur",
+  "@districtBhagalpur": {
+    "description": "District name"
+  },
+  "districtBhandara": "Bhandara",
+  "@districtBhandara": {
+    "description": "District name"
+  },
+  "districtBharatpur": "Bharatpur",
+  "@districtBharatpur": {
+    "description": "District name"
+  },
+  "districtBharuch": "Bharuch",
+  "@districtBharuch": {
+    "description": "District name"
+  },
+  "districtBhavnagar": "Bhavnagar",
+  "@districtBhavnagar": {
+    "description": "District name"
+  },
+  "districtBhilwara": "Bhilwara",
+  "@districtBhilwara": {
+    "description": "District name"
+  },
+  "districtBhind": "Bhind",
+  "@districtBhind": {
+    "description": "District name"
+  },
+  "districtBhiwani": "Bhiwani",
+  "@districtBhiwani": {
+    "description": "District name"
+  },
+  "districtBhoi": "Bhoi",
+  "@districtBhoi": {
+    "description": "District name"
+  },
+  "districtBhojpur": "Bhojpur",
+  "@districtBhojpur": {
+    "description": "District name"
+  },
+  "districtBhopal": "Bhopal",
+  "@districtBhopal": {
+    "description": "District name"
+  },
+  "districtBidar": "Bidar",
+  "@districtBidar": {
+    "description": "District name"
+  },
+  "districtBijapur": "Bijapur",
+  "@districtBijapur": {
+    "description": "District name"
+  },
+  "districtBijnor": "Bijnor",
+  "@districtBijnor": {
+    "description": "District name"
+  },
+  "districtBikaner": "Bikaner",
+  "@districtBikaner": {
+    "description": "District name"
+  },
+  "districtBilaspurCg": "Bilaspur",
+  "@districtBilaspurCg": {
+    "description": "District name"
+  },
+  "districtBilaspurHp": "Bilaspur",
+  "@districtBilaspurHp": {
+    "description": "District name"
+  },
+  "districtBirbhum": "Birbhum",
+  "@districtBirbhum": {
+    "description": "District name"
+  },
+  "districtBishnupur": "Bishnupur",
+  "@districtBishnupur": {
+    "description": "District name"
+  },
+  "districtBokaro": "Bokaro",
+  "@districtBokaro": {
+    "description": "District name"
+  },
+  "districtBongaigaon": "Bongaigaon",
+  "@districtBongaigaon": {
+    "description": "District name"
+  },
+  "districtBudaun": "Budaun",
+  "@districtBudaun": {
+    "description": "District name"
+  },
+  "districtBulandshahar": "Bulandshahar",
+  "@districtBulandshahar": {
+    "description": "District name"
+  },
+  "districtBuldana": "Buldana",
+  "@districtBuldana": {
+    "description": "District name"
+  },
+  "districtBundi": "Bundi",
+  "@districtBundi": {
+    "description": "District name"
+  },
+  "districtBurhanpur": "Burhanpur",
+  "@districtBurhanpur": {
+    "description": "District name"
+  },
+  "districtBuxar": "Buxar",
+  "@districtBuxar": {
+    "description": "District name"
+  },
+  "districtCachar": "Cachar",
+  "@districtCachar": {
+    "description": "District name"
+  },
+  "districtCentral": "Central",
+  "@districtCentral": {
+    "description": "District name"
+  },
+  "districtChamarajanagar": "Chamarajanagar",
+  "@districtChamarajanagar": {
+    "description": "District name"
+  },
+  "districtChamba": "Chamba",
+  "@districtChamba": {
+    "description": "District name"
+  },
+  "districtChamoli": "Chamoli",
+  "@districtChamoli": {
+    "description": "District name"
+  },
+  "districtChampawat": "Champawat",
+  "@districtChampawat": {
+    "description": "District name"
+  },
+  "districtChamphai": "Champhai",
+  "@districtChamphai": {
+    "description": "District name"
+  },
+  "districtChandauli": "Chandauli",
+  "@districtChandauli": {
+    "description": "District name"
+  },
+  "districtChandel": "Chandel",
+  "@districtChandel": {
+    "description": "District name"
+  },
+  "districtChandigarh": "Chandigarh",
+  "@districtChandigarh": {
+    "description": "District name"
+  },
+  "districtChandrapur": "Chandrapur",
+  "@districtChandrapur": {
+    "description": "District name"
+  },
+  "districtChanglang": "Changlang",
+  "@districtChanglang": {
+    "description": "District name"
+  },
+  "districtChatra": "Chatra",
+  "@districtChatra": {
+    "description": "District name"
+  },
+  "districtChennaiCorp": "Chennai Corp",
+  "@districtChennaiCorp": {
+    "description": "District name"
+  },
+  "districtCheyyar": "Cheyyar",
+  "@districtCheyyar": {
+    "description": "District name"
+  },
+  "districtChhatarpur": "Chhatarpur",
+  "@districtChhatarpur": {
+    "description": "District name"
+  },
+  "districtChhindwara": "Chhindwara",
+  "@districtChhindwara": {
+    "description": "District name"
+  },
+  "districtChikkaballapur": "Chikkaballapur",
+  "@districtChikkaballapur": {
+    "description": "District name"
+  },
+  "districtChikmagalur": "Chikmagalur",
+  "@districtChikmagalur": {
+    "description": "District name"
+  },
+  "districtChirang": "Chirang",
+  "@districtChirang": {
+    "description": "District name"
+  },
+  "districtChitradurga": "Chitradurga",
+  "@districtChitradurga": {
+    "description": "District name"
+  },
+  "districtChitrakoot": "Chitrakoot",
+  "@districtChitrakoot": {
+    "description": "District name"
+  },
+  "districtChittaurgarh": "Chittaurgarh",
+  "@districtChittaurgarh": {
+    "description": "District name"
+  },
+  "districtChittoor": "Chittoor",
+  "@districtChittoor": {
+    "description": "District name"
+  },
+  "districtChurachandpur": "Churachandpur",
+  "@districtChurachandpur": {
+    "description": "District name"
+  },
+  "districtChuru": "Churu",
+  "@districtChuru": {
+    "description": "District name"
+  },
+  "districtCityZone": "City Zone",
+  "@districtCityZone": {
+    "description": "District name"
+  },
+  "districtCiviliLine": "Civili Line",
+  "@districtCiviliLine": {
+    "description": "District name"
+  },
+  "districtCoimbatore": "Coimbatore",
+  "@districtCoimbatore": {
+    "description": "District name"
+  },
+  "districtCoochBehar": "Cooch Behar",
+  "@districtCoochBehar": {
+    "description": "District name"
+  },
+  "districtCuddalore": "Cuddalore",
+  "@districtCuddalore": {
+    "description": "District name"
+  },
+  "districtCuttack": "Cuttack",
+  "@districtCuttack": {
+    "description": "District name"
+  },
+  "districtDadraNagarHaveli": "Dadra Nagar Haveli",
+  "@districtDadraNagarHaveli": {
+    "description": "District name"
+  },
+  "districtDahod": "Dahod",
+  "@districtDahod": {
+    "description": "District name"
+  },
+  "districtDakshinDinajpur": "Dakshin Dinajpur",
+  "@districtDakshinDinajpur": {
+    "description": "District name"
+  },
+  "districtDakshinaKannada": "Dakshina Kannada",
+  "@districtDakshinaKannada": {
+    "description": "District name"
+  },
+  "districtDaman": "Daman",
+  "@districtDaman": {
+    "description": "District name"
+  },
+  "districtDamoh": "Damoh",
+  "@districtDamoh": {
+    "description": "District name"
+  },
+  "districtDang": "Dang",
+  "@districtDang": {
+    "description": "District name"
+  },
+  "districtDantewada": "Dantewada",
+  "@districtDantewada": {
+    "description": "District name"
+  },
+  "districtDarbhanga": "Darbhanga",
+  "@districtDarbhanga": {
+    "description": "District name"
+  },
+  "districtDarjeeling": "Darjeeling",
+  "@districtDarjeeling": {
+    "description": "District name"
+  },
+  "districtDarrang": "Darrang",
+  "@districtDarrang": {
+    "description": "District name"
+  },
+  "districtDatia": "Datia",
+  "@districtDatia": {
+    "description": "District name"
+  },
+  "districtDausa": "Dausa",
+  "@districtDausa": {
+    "description": "District name"
+  },
+  "districtDavanagere": "Davanagere",
+  "@districtDavanagere": {
+    "description": "District name"
+  },
+  "districtDebagarh": "Debagarh",
+  "@districtDebagarh": {
+    "description": "District name"
+  },
+  "districtDehradun": "Dehradun",
+  "@districtDehradun": {
+    "description": "District name"
+  },
+  "districtDeogarh": "Deogarh",
+  "@districtDeogarh": {
+    "description": "District name"
+  },
+  "districtDeoria": "Deoria",
+  "@districtDeoria": {
+    "description": "District name"
+  },
+  "districtDewas": "Dewas",
+  "@districtDewas": {
+    "description": "District name"
+  },
+  "districtDhamtari": "Dhamtari",
+  "@districtDhamtari": {
+    "description": "District name"
+  },
+  "districtDhanbad": "Dhanbad",
+  "@districtDhanbad": {
+    "description": "District name"
+  },
+  "districtDhar": "Dhar",
+  "@districtDhar": {
+    "description": "District name"
+  },
+  "districtDharapuram": "Dharapuram",
+  "@districtDharapuram": {
+    "description": "District name"
+  },
+  "districtDharmapuri": "Dharmapuri",
+  "@districtDharmapuri": {
+    "description": "District name"
+  },
+  "districtDharwad": "Dharwad",
+  "@districtDharwad": {
+    "description": "District name"
+  },
+  "districtDhaulpur": "Dhaulpur",
+  "@districtDhaulpur": {
+    "description": "District name"
+  },
+  "districtDhemaji": "Dhemaji",
+  "@districtDhemaji": {
+    "description": "District name"
+  },
+  "districtDhenkanal": "Dhenkanal",
+  "@districtDhenkanal": {
+    "description": "District name"
+  },
+  "districtDhubri": "Dhubri",
+  "@districtDhubri": {
+    "description": "District name"
+  },
+  "districtDhule": "Dhule",
+  "@districtDhule": {
+    "description": "District name"
+  },
+  "districtDibrugarh": "Dibrugarh",
+  "@districtDibrugarh": {
+    "description": "District name"
+  },
+  "districtDimapur": "Dimapur",
+  "@districtDimapur": {
+    "description": "District name"
+  },
+  "districtDindigul": "Dindigul",
+  "@districtDindigul": {
+    "description": "District name"
+  },
+  "districtDindori": "Dindori",
+  "@districtDindori": {
+    "description": "District name"
+  },
+  "districtDiu": "Diu",
+  "@districtDiu": {
+    "description": "District name"
+  },
+  "districtDoda": "Doda",
+  "@districtDoda": {
+    "description": "District name"
+  },
+  "districtDumka": "Dumka",
+  "@districtDumka": {
+    "description": "District name"
+  },
+  "districtDungarpur": "Dungarpur",
+  "@districtDungarpur": {
+    "description": "District name"
+  },
+  "districtDurg": "Durg",
+  "@districtDurg": {
+    "description": "District name"
+  },
+  "districtEast": "East",
+  "@districtEast": {
+    "description": "District name"
+  },
+  "districtEastChamparan": "East Champaran",
+  "@districtEastChamparan": {
+    "description": "District name"
+  },
+  "districtEastDhalai": "East Dhalai",
+  "@districtEastDhalai": {
+    "description": "District name"
+  },
+  "districtEastGaroHills": "East Garo Hills",
+  "@districtEastGaroHills": {
+    "description": "District name"
+  },
+  "districtEastGodavari": "East Godavari",
+  "@districtEastGodavari": {
+    "description": "District name"
+  },
+  "districtEastKameng": "East Kameng",
+  "@districtEastKameng": {
+    "description": "District name"
+  },
+  "districtEastKhasiHills": "East Khasi Hills",
+  "@districtEastKhasiHills": {
+    "description": "District name"
+  },
+  "districtEastSiang": "East Siang",
+  "@districtEastSiang": {
+    "description": "District name"
+  },
+  "districtEastSinghbhum": "East Singhbhum",
+  "@districtEastSinghbhum": {
+    "description": "District name"
+  },
+  "districtErnakulam": "Ernakulam",
+  "@districtErnakulam": {
+    "description": "District name"
+  },
+  "districtErode": "Erode",
+  "@districtErode": {
+    "description": "District name"
+  },
+  "districtEtah": "Etah",
+  "@districtEtah": {
+    "description": "District name"
+  },
+  "districtEtawah": "Etawah",
+  "@districtEtawah": {
+    "description": "District name"
+  },
+  "districtFaizabad": "Faizabad",
+  "@districtFaizabad": {
+    "description": "District name"
+  },
+  "districtFaridabad": "Faridabad",
+  "@districtFaridabad": {
+    "description": "District name"
+  },
+  "districtFaridkot": "Faridkot",
+  "@districtFaridkot": {
+    "description": "District name"
+  },
+  "districtFarrukhabad": "Farrukhabad",
+  "@districtFarrukhabad": {
+    "description": "District name"
+  },
+  "districtFategarhSahib": "Fategarh Sahib",
+  "@districtFategarhSahib": {
+    "description": "District name"
+  },
+  "districtFatehabad": "Fatehabad",
+  "@districtFatehabad": {
+    "description": "District name"
+  },
+  "districtFatehpur": "Fatehpur",
+  "@districtFatehpur": {
+    "description": "District name"
+  },
+  "districtFirozabad": "Firozabad",
+  "@districtFirozabad": {
+    "description": "District name"
+  },
+  "districtFirozpur": "Firozpur",
+  "@districtFirozpur": {
+    "description": "District name"
+  },
+  "districtGadag": "Gadag",
+  "@districtGadag": {
+    "description": "District name"
+  },
+  "districtGadchiroli": "Gadchiroli",
+  "@districtGadchiroli": {
+    "description": "District name"
+  },
+  "districtGajapati": "Gajapati",
+  "@districtGajapati": {
+    "description": "District name"
+  },
+  "districtGandhinagar": "Gandhinagar",
+  "@districtGandhinagar": {
+    "description": "District name"
+  },
+  "districtGanganagar": "Ganganagar",
+  "@districtGanganagar": {
+    "description": "District name"
+  },
+  "districtGanjam": "Ganjam",
+  "@districtGanjam": {
+    "description": "District name"
+  },
+  "districtGarhwa": "Garhwa",
+  "@districtGarhwa": {
+    "description": "District name"
+  },
+  "districtGautamBudhNagar": "Gautam Budh Nagar",
+  "@districtGautamBudhNagar": {
+    "description": "District name"
+  },
+  "districtGaya": "Gaya",
+  "@districtGaya": {
+    "description": "District name"
+  },
+  "districtGhaziabad": "Ghaziabad",
+  "@districtGhaziabad": {
+    "description": "District name"
+  },
+  "districtGhazipur": "Ghazipur",
+  "@districtGhazipur": {
+    "description": "District name"
+  },
+  "districtGiridih": "Giridih",
+  "@districtGiridih": {
+    "description": "District name"
+  },
+  "districtGoa": "Goa",
+  "@districtGoa": {
+    "description": "District name"
+  },
+  "districtGoalpara": "Goalpara",
+  "@districtGoalpara": {
+    "description": "District name"
+  },
+  "districtGodda": "Godda",
+  "@districtGodda": {
+    "description": "District name"
+  },
+  "districtGodhara": "Godhara",
+  "@districtGodhara": {
+    "description": "District name"
+  },
+  "districtGolaghat": "Golaghat",
+  "@districtGolaghat": {
+    "description": "District name"
+  },
+  "districtGonda": "Gonda",
+  "@districtGonda": {
+    "description": "District name"
+  },
+  "districtGondia": "Gondia",
+  "@districtGondia": {
+    "description": "District name"
+  },
+  "districtGopalganj": "Gopalganj",
+  "@districtGopalganj": {
+    "description": "District name"
+  },
+  "districtGorakhpur": "Gorakhpur",
+  "@districtGorakhpur": {
+    "description": "District name"
+  },
+  "districtGulbarga": "Gulbarga",
+  "@districtGulbarga": {
+    "description": "District name"
+  },
+  "districtGumla": "Gumla",
+  "@districtGumla": {
+    "description": "District name"
+  },
+  "districtGuna": "Guna",
+  "@districtGuna": {
+    "description": "District name"
+  },
+  "districtGuntur": "Guntur",
+  "@districtGuntur": {
+    "description": "District name"
+  },
+  "districtGurdaspur": "Gurdaspur",
+  "@districtGurdaspur": {
+    "description": "District name"
+  },
+  "districtGurgaon": "Gurgaon",
+  "@districtGurgaon": {
+    "description": "District name"
+  },
+  "districtGwalior": "Gwalior",
+  "@districtGwalior": {
+    "description": "District name"
+  },
+  "districtHailakandi": "Hailakandi",
+  "@districtHailakandi": {
+    "description": "District name"
+  },
+  "districtHamirpurHp": "Hamirpur",
+  "@districtHamirpurHp": {
+    "description": "District name"
+  },
+  "districtHamirpurUp": "Hamirpur",
+  "@districtHamirpurUp": {
+    "description": "District name"
+  },
+  "districtHanumangarh": "Hanumangarh",
+  "@districtHanumangarh": {
+    "description": "District name"
+  },
+  "districtHarda": "Harda",
+  "@districtHarda": {
+    "description": "District name"
+  },
+  "districtHardoi": "Hardoi",
+  "@districtHardoi": {
+    "description": "District name"
+  },
+  "districtHardwar": "Hardwar",
+  "@districtHardwar": {
+    "description": "District name"
+  },
+  "districtHassan": "Hassan",
+  "@districtHassan": {
+    "description": "District name"
+  },
+  "districtHathrasMahamayanagar": "Hathras Mahamayanagar",
+  "@districtHathrasMahamayanagar": {
+    "description": "District name"
+  },
+  "districtHaveri": "Haveri",
+  "@districtHaveri": {
+    "description": "District name"
+  },
+  "districtHazaribagh": "Hazaribagh",
+  "@districtHazaribagh": {
+    "description": "District name"
+  },
+  "districtHingoli": "Hingoli",
+  "@districtHingoli": {
+    "description": "District name"
+  },
+  "districtHisar": "Hisar",
+  "@districtHisar": {
+    "description": "District name"
+  },
+  "districtHooghly": "Hooghly",
+  "@districtHooghly": {
+    "description": "District name"
+  },
+  "districtHoshangabad": "Hoshangabad",
+  "@districtHoshangabad": {
+    "description": "District name"
+  },
+  "districtHoshiarpur": "Hoshiarpur",
+  "@districtHoshiarpur": {
+    "description": "District name"
+  },
+  "districtHowrah": "Howrah",
+  "@districtHowrah": {
+    "description": "District name"
+  },
+  "districtHyderabad": "Hyderabad",
+  "@districtHyderabad": {
+    "description": "District name"
+  },
+  "districtIdukki": "Idukki",
+  "@districtIdukki": {
+    "description": "District name"
+  },
+  "districtImphalEast": "Imphal East",
+  "@districtImphalEast": {
+    "description": "District name"
+  },
+  "districtImphalWest": "Imphal West",
+  "@districtImphalWest": {
+    "description": "District name"
+  },
+  "districtIndore": "Indore",
+  "@districtIndore": {
+    "description": "District name"
+  },
+  "districtJabalpur": "Jabalpur",
+  "@districtJabalpur": {
+    "description": "District name"
+  },
+  "districtJagatsinghapur": "Jagatsinghapur",
+  "@districtJagatsinghapur": {
+    "description": "District name"
+  },
+  "districtJaintiaHills": "Jaintia Hills",
+  "@districtJaintiaHills": {
+    "description": "District name"
+  },
+  "districtJaipur": "Jaipur",
+  "@districtJaipur": {
+    "description": "District name"
+  },
+  "districtJaisalmer": "Jaisalmer",
+  "@districtJaisalmer": {
+    "description": "District name"
+  },
+  "districtJajpur": "Jajpur",
+  "@districtJajpur": {
+    "description": "District name"
+  },
+  "districtJalandhar": "Jalandhar",
+  "@districtJalandhar": {
+    "description": "District name"
+  },
+  "districtJalaun": "Jalaun",
+  "@districtJalaun": {
+    "description": "District name"
+  },
+  "districtJalgaon": "Jalgaon",
+  "@districtJalgaon": {
+    "description": "District name"
+  },
+  "districtJalna": "Jalna",
+  "@districtJalna": {
+    "description": "District name"
+  },
+  "districtJalore": "Jalore",
+  "@districtJalore": {
+    "description": "District name"
+  },
+  "districtJalpaiguri": "Jalpaiguri",
+  "@districtJalpaiguri": {
+    "description": "District name"
+  },
+  "districtJammu": "Jammu",
+  "@districtJammu": {
+    "description": "District name"
+  },
+  "districtJamnagar": "Jamnagar",
+  "@districtJamnagar": {
+    "description": "District name"
+  },
+  "districtJamtara": "Jamtara",
+  "@districtJamtara": {
+    "description": "District name"
+  },
+  "districtJamui": "Jamui",
+  "@districtJamui": {
+    "description": "District name"
+  },
+  "districtJanjgir": "Janjgir",
+  "@districtJanjgir": {
+    "description": "District name"
+  },
+  "districtJashpur": "Jashpur",
+  "@districtJashpur": {
+    "description": "District name"
+  },
+  "districtJaunpur": "Jaunpur",
+  "@districtJaunpur": {
+    "description": "District name"
+  },
+  "districtJehanabad": "Jehanabad",
+  "@districtJehanabad": {
+    "description": "District name"
+  },
+  "districtJhabua": "Jhabua",
+  "@districtJhabua": {
+    "description": "District name"
+  },
+  "districtJhajjar": "Jhajjar",
+  "@districtJhajjar": {
+    "description": "District name"
+  },
+  "districtJhalawar": "Jhalawar",
+  "@districtJhalawar": {
+    "description": "District name"
+  },
+  "districtJhansi": "Jhansi",
+  "@districtJhansi": {
+    "description": "District name"
+  },
+  "districtJhargram": "Jhargram",
+  "@districtJhargram": {
+    "description": "District name"
+  },
+  "districtJharsuguda": "Jharsuguda",
+  "@districtJharsuguda": {
+    "description": "District name"
+  },
+  "districtJhunjhunun": "Jhunjhunun",
+  "@districtJhunjhunun": {
+    "description": "District name"
+  },
+  "districtJind": "Jind",
+  "@districtJind": {
+    "description": "District name"
+  },
+  "districtJodhpur": "Jodhpur",
+  "@districtJodhpur": {
+    "description": "District name"
+  },
+  "districtJorhat": "Jorhat",
+  "@districtJorhat": {
+    "description": "District name"
+  },
+  "districtJunagadh": "Junagadh",
+  "@districtJunagadh": {
+    "description": "District name"
+  },
+  "districtJyotibaPhuleNagar": "Jyotiba Phule Nagar",
+  "@districtJyotibaPhuleNagar": {
+    "description": "District name"
+  },
+  "districtKadapa": "Kadapa",
+  "@districtKadapa": {
+    "description": "District name"
+  },
+  "districtKaimur": "Kaimur",
+  "@districtKaimur": {
+    "description": "District name"
+  },
+  "districtKaithal": "Kaithal",
+  "@districtKaithal": {
+    "description": "District name"
+  },
+  "districtKalahandi": "Kalahandi",
+  "@districtKalahandi": {
+    "description": "District name"
+  },
+  "districtKalimpong": "Kalimpong",
+  "@districtKalimpong": {
+    "description": "District name"
+  },
+  "districtKallakurichi": "Kallakurichi",
+  "@districtKallakurichi": {
+    "description": "District name"
+  },
+  "districtKamrup": "Kamrup",
+  "@districtKamrup": {
+    "description": "District name"
+  },
+  "districtKancheepuram": "Kancheepuram",
+  "@districtKancheepuram": {
+    "description": "District name"
+  },
+  "districtKandhamal": "Kandhamal",
+  "@districtKandhamal": {
+    "description": "District name"
+  },
+  "districtKangpokpi": "Kangpokpi",
+  "@districtKangpokpi": {
+    "description": "District name"
+  },
+  "districtKangra": "Kangra",
+  "@districtKangra": {
+    "description": "District name"
+  },
+  "districtKanker": "Kanker",
+  "@districtKanker": {
+    "description": "District name"
+  },
+  "districtKannauj": "Kannauj",
+  "@districtKannauj": {
+    "description": "District name"
+  },
+  "districtKannur": "Kannur",
+  "@districtKannur": {
+    "description": "District name"
+  },
+  "districtKanpurDehat": "Kanpur Dehat",
+  "@districtKanpurDehat": {
+    "description": "District name"
+  },
+  "districtKanpurNagar": "Kanpur Nagar",
+  "@districtKanpurNagar": {
+    "description": "District name"
+  },
+  "districtKapurthala": "Kapurthala",
+  "@districtKapurthala": {
+    "description": "District name"
+  },
+  "districtKarauli": "Karauli",
+  "@districtKarauli": {
+    "description": "District name"
+  },
+  "districtKarbiAnglong": "Karbi Anglong",
+  "@districtKarbiAnglong": {
+    "description": "District name"
+  },
+  "districtKarimganj": "Karimganj",
+  "@districtKarimganj": {
+    "description": "District name"
+  },
+  "districtKarimnagar": "Karimnagar",
+  "@districtKarimnagar": {
+    "description": "District name"
+  },
+  "districtKarnal": "Karnal",
+  "@districtKarnal": {
+    "description": "District name"
+  },
+  "districtKarolBagh": "Karol Bagh",
+  "@districtKarolBagh": {
+    "description": "District name"
+  },
+  "districtKarur": "Karur",
+  "@districtKarur": {
+    "description": "District name"
+  },
+  "districtKasaragod": "Kasaragod",
+  "@districtKasaragod": {
+    "description": "District name"
+  },
+  "districtKathua": "Kathua",
+  "@districtKathua": {
+    "description": "District name"
+  },
+  "districtKatihar": "Katihar",
+  "@districtKatihar": {
+    "description": "District name"
+  },
+  "districtKatni": "Katni",
+  "@districtKatni": {
+    "description": "District name"
+  },
+  "districtKaushambi": "Kaushambi",
+  "@districtKaushambi": {
+    "description": "District name"
+  },
+  "districtKawardhaKabirDham": "Kawardha Kabir Dham",
+  "@districtKawardhaKabirDham": {
+    "description": "District name"
+  },
+  "districtKendrapara": "Kendrapara",
+  "@districtKendrapara": {
+    "description": "District name"
+  },
+  "districtKeonjhar": "Keonjhar",
+  "@districtKeonjhar": {
+    "description": "District name"
+  },
+  "districtKhagaria": "Khagaria",
+  "@districtKhagaria": {
+    "description": "District name"
+  },
+  "districtKhammamBhadrachalam": "Khammam Bhadrachalam",
+  "@districtKhammamBhadrachalam": {
+    "description": "District name"
+  },
+  "districtKhandwa": "Khandwa",
+  "@districtKhandwa": {
+    "description": "District name"
+  },
+  "districtKhargone": "Khargone",
+  "@districtKhargone": {
+    "description": "District name"
+  },
+  "districtKheda": "Kheda",
+  "@districtKheda": {
+    "description": "District name"
+  },
+  "districtKheri": "Kheri",
+  "@districtKheri": {
+    "description": "District name"
+  },
+  "districtKhurda": "Khurda",
+  "@districtKhurda": {
+    "description": "District name"
+  },
+  "districtKiphire": "Kiphire",
+  "@districtKiphire": {
+    "description": "District name"
+  },
+  "districtKishanganj": "Kishanganj",
+  "@districtKishanganj": {
+    "description": "District name"
+  },
+  "districtKishtwar": "Kishtwar",
+  "@districtKishtwar": {
+    "description": "District name"
+  },
+  "districtKodagu": "Kodagu",
+  "@districtKodagu": {
+    "description": "District name"
+  },
+  "districtKodarma": "Kodarma",
+  "@districtKodarma": {
+    "description": "District name"
+  },
+  "districtKohima": "Kohima",
+  "@districtKohima": {
+    "description": "District name"
+  },
+  "districtKokrajhar": "Kokrajhar",
+  "@districtKokrajhar": {
+    "description": "District name"
+  },
+  "districtKolar": "Kolar",
+  "@districtKolar": {
+    "description": "District name"
+  },
+  "districtKolasib": "Kolasib",
+  "@districtKolasib": {
+    "description": "District name"
+  },
+  "districtKolhapur": "Kolhapur",
+  "@districtKolhapur": {
+    "description": "District name"
+  },
+  "districtKolkata": "Kolkata",
+  "@districtKolkata": {
+    "description": "District name"
+  },
+  "districtKollam": "Kollam",
+  "@districtKollam": {
+    "description": "District name"
+  },
+  "districtKoppal": "Koppal",
+  "@districtKoppal": {
+    "description": "District name"
+  },
+  "districtKoraput": "Koraput",
+  "@districtKoraput": {
+    "description": "District name"
+  },
+  "districtKorba": "Korba",
+  "@districtKorba": {
+    "description": "District name"
+  },
+  "districtKoriya": "Koriya",
+  "@districtKoriya": {
+    "description": "District name"
+  },
+  "districtKota": "Kota",
+  "@districtKota": {
+    "description": "District name"
+  },
+  "districtKottayam": "Kottayam",
+  "@districtKottayam": {
+    "description": "District name"
+  },
+  "districtKovilpatti": "Kovilpatti",
+  "@districtKovilpatti": {
+    "description": "District name"
+  },
+  "districtKozhikode": "Kozhikode",
+  "@districtKozhikode": {
+    "description": "District name"
+  },
+  "districtKrishna": "Krishna",
+  "@districtKrishna": {
+    "description": "District name"
+  },
+  "districtKrishnagiri": "Krishnagiri",
+  "@districtKrishnagiri": {
+    "description": "District name"
+  },
+  "districtKullu": "Kullu",
+  "@districtKullu": {
+    "description": "District name"
+  },
+  "districtKurnool": "Kurnool",
+  "@districtKurnool": {
+    "description": "District name"
+  },
+  "districtKurukshetra": "Kurukshetra",
+  "@districtKurukshetra": {
+    "description": "District name"
+  },
+  "districtKurungKumey": "Kurung Kumey",
+  "@districtKurungKumey": {
+    "description": "District name"
+  },
+  "districtKushinagar": "Kushinagar",
+  "@districtKushinagar": {
+    "description": "District name"
+  },
+  "districtKutch": "Kutch",
+  "@districtKutch": {
+    "description": "District name"
+  },
+  "districtLakhimpur": "Lakhimpur",
+  "@districtLakhimpur": {
+    "description": "District name"
+  },
+  "districtLakhisarai": "Lakhisarai",
+  "@districtLakhisarai": {
+    "description": "District name"
+  },
+  "districtLakshadweep": "Lakshadweep",
+  "@districtLakshadweep": {
+    "description": "District name"
+  },
+  "districtLalitpur": "Lalitpur",
+  "@districtLalitpur": {
+    "description": "District name"
+  },
+  "districtLathehar": "Lathehar",
+  "@districtLathehar": {
+    "description": "District name"
+  },
+  "districtLatur": "Latur",
+  "@districtLatur": {
+    "description": "District name"
+  },
+  "districtLawngtlai": "Lawngtlai",
+  "@districtLawngtlai": {
+    "description": "District name"
+  },
+  "districtLohardaga": "Lohardaga",
+  "@districtLohardaga": {
+    "description": "District name"
+  },
+  "districtLohit": "Lohit",
+  "@districtLohit": {
+    "description": "District name"
+  },
+  "districtLongleng": "Longleng",
+  "@districtLongleng": {
+    "description": "District name"
+  },
+  "districtLowerDibangValley": "Lower Dibang Valley",
+  "@districtLowerDibangValley": {
+    "description": "District name"
+  },
+  "districtLowerSubansiri": "Lower Subansiri",
+  "@districtLowerSubansiri": {
+    "description": "District name"
+  },
+  "districtLucknow": "Lucknow",
+  "@districtLucknow": {
+    "description": "District name"
+  },
+  "districtLudhiana": "Ludhiana",
+  "@districtLudhiana": {
+    "description": "District name"
+  },
+  "districtLunglei": "Lunglei",
+  "@districtLunglei": {
+    "description": "District name"
+  },
+  "districtMadhepura": "Madhepura",
+  "@districtMadhepura": {
+    "description": "District name"
+  },
+  "districtMadhubani": "Madhubani",
+  "@districtMadhubani": {
+    "description": "District name"
+  },
+  "districtMadurai": "Madurai",
+  "@districtMadurai": {
+    "description": "District name"
+  },
+  "districtMaharajganj": "Maharajganj",
+  "@districtMaharajganj": {
+    "description": "District name"
+  },
+  "districtMahasamund": "Mahasamund",
+  "@districtMahasamund": {
+    "description": "District name"
+  },
+  "districtMahbubnagar": "Mahbubnagar",
+  "@districtMahbubnagar": {
+    "description": "District name"
+  },
+  "districtMahesana": "Mahesana",
+  "@districtMahesana": {
+    "description": "District name"
+  },
+  "districtMahoba": "Mahoba",
+  "@districtMahoba": {
+    "description": "District name"
+  },
+  "districtMainpuri": "Mainpuri",
+  "@districtMainpuri": {
+    "description": "District name"
+  },
+  "districtMalappuram": "Malappuram",
+  "@districtMalappuram": {
+    "description": "District name"
+  },
+  "districtMalda": "Malda",
+  "@districtMalda": {
+    "description": "District name"
+  },
+  "districtMalkangiri": "Malkangiri",
+  "@districtMalkangiri": {
+    "description": "District name"
+  },
+  "districtMamit": "Mamit",
+  "@districtMamit": {
+    "description": "District name"
+  },
+  "districtMandi": "Mandi",
+  "@districtMandi": {
+    "description": "District name"
+  },
+  "districtMandla": "Mandla",
+  "@districtMandla": {
+    "description": "District name"
+  },
+  "districtMandsaur": "Mandsaur",
+  "@districtMandsaur": {
+    "description": "District name"
+  },
+  "districtMandya": "Mandya",
+  "@districtMandya": {
+    "description": "District name"
+  },
+  "districtMansaPu": "Mansa Pu",
+  "@districtMansaPu": {
+    "description": "District name"
+  },
+  "districtMarigaon": "Marigaon",
+  "@districtMarigaon": {
+    "description": "District name"
+  },
+  "districtMathura": "Mathura",
+  "@districtMathura": {
+    "description": "District name"
+  },
+  "districtMau": "Mau",
+  "@districtMau": {
+    "description": "District name"
+  },
+  "districtMayurbhanj": "Mayurbhanj",
+  "@districtMayurbhanj": {
+    "description": "District name"
+  },
+  "districtMedak": "Medak",
+  "@districtMedak": {
+    "description": "District name"
+  },
+  "districtMeerut": "Meerut",
+  "@districtMeerut": {
+    "description": "District name"
+  },
+  "districtMewat": "Mewat",
+  "@districtMewat": {
+    "description": "District name"
+  },
+  "districtMirzapur": "Mirzapur",
+  "@districtMirzapur": {
+    "description": "District name"
+  },
+  "districtMoga": "Moga",
+  "@districtMoga": {
+    "description": "District name"
+  },
+  "districtMohaliSasnagar": "Mohali Sasnagar",
+  "@districtMohaliSasnagar": {
+    "description": "District name"
+  },
+  "districtMokokchung": "Mokokchung",
+  "@districtMokokchung": {
+    "description": "District name"
+  },
+  "districtMon": "Mon",
+  "@districtMon": {
+    "description": "District name"
+  },
+  "districtMoradabad": "Moradabad",
+  "@districtMoradabad": {
+    "description": "District name"
+  },
+  "districtMorena": "Morena",
+  "@districtMorena": {
+    "description": "District name"
+  },
+  "districtMukatsar": "Mukatsar",
+  "@districtMukatsar": {
+    "description": "District name"
+  },
+  "districtMunger": "Munger",
+  "@districtMunger": {
+    "description": "District name"
+  },
+  "districtMurshidabad": "Murshidabad",
+  "@districtMurshidabad": {
+    "description": "District name"
+  },
+  "districtMuzaffarnagar": "Muzaffarnagar",
+  "@districtMuzaffarnagar": {
+    "description": "District name"
+  },
+  "districtMuzaffarpur": "Muzaffarpur",
+  "@districtMuzaffarpur": {
+    "description": "District name"
+  },
+  "districtMysore": "Mysore",
+  "@districtMysore": {
+    "description": "District name"
+  },
+  "districtNabarangapur": "Nabarangapur",
+  "@districtNabarangapur": {
+    "description": "District name"
+  },
+  "districtNadia": "Nadia",
+  "@districtNadia": {
+    "description": "District name"
+  },
+  "districtNagaon": "Nagaon",
+  "@districtNagaon": {
+    "description": "District name"
+  },
+  "districtNagapattinam": "Nagapattinam",
+  "@districtNagapattinam": {
+    "description": "District name"
+  },
+  "districtNagaur": "Nagaur",
+  "@districtNagaur": {
+    "description": "District name"
+  },
+  "districtNagercoil": "Nagercoil",
+  "@districtNagercoil": {
+    "description": "District name"
+  },
+  "districtNagpur": "Nagpur",
+  "@districtNagpur": {
+    "description": "District name"
+  },
+  "districtNainital": "Nainital",
+  "@districtNainital": {
+    "description": "District name"
+  },
+  "districtNajafgarh": "Najafgarh",
+  "@districtNajafgarh": {
+    "description": "District name"
+  },
+  "districtNalanda": "Nalanda",
+  "@districtNalanda": {
+    "description": "District name"
+  },
+  "districtNalbari": "Nalbari",
+  "@districtNalbari": {
+    "description": "District name"
+  },
+  "districtNalgonda": "Nalgonda",
+  "@districtNalgonda": {
+    "description": "District name"
+  },
+  "districtNamakkal": "Namakkal",
+  "@districtNamakkal": {
+    "description": "District name"
+  },
+  "districtNanded": "Nanded",
+  "@districtNanded": {
+    "description": "District name"
+  },
+  "districtNandurbar": "Nandurbar",
+  "@districtNandurbar": {
+    "description": "District name"
+  },
+  "districtNarela": "Narela",
+  "@districtNarela": {
+    "description": "District name"
+  },
+  "districtNarmada": "Narmada",
+  "@districtNarmada": {
+    "description": "District name"
+  },
+  "districtNarnaul": "Narnaul",
+  "@districtNarnaul": {
+    "description": "District name"
+  },
+  "districtNarsinghpur": "Narsinghpur",
+  "@districtNarsinghpur": {
+    "description": "District name"
+  },
+  "districtNasik": "Nasik",
+  "@districtNasik": {
+    "description": "District name"
+  },
+  "districtNavsari": "Navsari",
+  "@districtNavsari": {
+    "description": "District name"
+  },
+  "districtNawada": "Nawada",
+  "@districtNawada": {
+    "description": "District name"
+  },
+  "districtNawanshahr": "Nawanshahr",
+  "@districtNawanshahr": {
+    "description": "District name"
+  },
+  "districtNayagarh": "Nayagarh",
+  "@districtNayagarh": {
+    "description": "District name"
+  },
+  "districtNeemuch": "Neemuch",
+  "@districtNeemuch": {
+    "description": "District name"
+  },
+  "districtNellore": "Nellore",
+  "@districtNellore": {
+    "description": "District name"
+  },
+  "districtNizamabad": "Nizamabad",
+  "@districtNizamabad": {
+    "description": "District name"
+  },
+  "districtNorth": "North",
+  "@districtNorth": {
+    "description": "District name"
+  },
+  "districtNorth24Parganas": "North24 Parganas",
+  "@districtNorth24Parganas": {
+    "description": "District name"
+  },
+  "districtNorthCacharHills": "North Cachar Hills",
+  "@districtNorthCacharHills": {
+    "description": "District name"
+  },
+  "districtNorthTripura": "North Tripura",
+  "@districtNorthTripura": {
+    "description": "District name"
+  },
+  "districtNuapada": "Nuapada",
+  "@districtNuapada": {
+    "description": "District name"
+  },
+  "districtOsmanabad": "Osmanabad",
+  "@districtOsmanabad": {
+    "description": "District name"
+  },
+  "districtPakur": "Pakur",
+  "@districtPakur": {
+    "description": "District name"
+  },
+  "districtPalakkad": "Palakkad",
+  "@districtPalakkad": {
+    "description": "District name"
+  },
+  "districtPalamu": "Palamu",
+  "@districtPalamu": {
+    "description": "District name"
+  },
+  "districtPalani": "Palani",
+  "@districtPalani": {
+    "description": "District name"
+  },
+  "districtPali": "Pali",
+  "@districtPali": {
+    "description": "District name"
+  },
+  "districtPalwal": "Palwal",
+  "@districtPalwal": {
+    "description": "District name"
+  },
+  "districtPanchkula": "Panchkula",
+  "@districtPanchkula": {
+    "description": "District name"
+  },
+  "districtPanipat": "Panipat",
+  "@districtPanipat": {
+    "description": "District name"
+  },
+  "districtPanna": "Panna",
+  "@districtPanna": {
+    "description": "District name"
+  },
+  "districtPapumPare": "Papum Pare",
+  "@districtPapumPare": {
+    "description": "District name"
+  },
+  "districtParamakudi": "Paramakudi",
+  "@districtParamakudi": {
+    "description": "District name"
+  },
+  "districtParbhani": "Parbhani",
+  "@districtParbhani": {
+    "description": "District name"
+  },
+  "districtPaschimBardhaman": "Paschim Bardhaman",
+  "@districtPaschimBardhaman": {
+    "description": "District name"
+  },
+  "districtPaschimMedinipur": "Paschim Medinipur",
+  "@districtPaschimMedinipur": {
+    "description": "District name"
+  },
+  "districtPatan": "Patan",
+  "@districtPatan": {
+    "description": "District name"
+  },
+  "districtPathanamthitta": "Pathanamthitta",
+  "@districtPathanamthitta": {
+    "description": "District name"
+  },
+  "districtPatiala": "Patiala",
+  "@districtPatiala": {
+    "description": "District name"
+  },
+  "districtPatna": "Patna",
+  "@districtPatna": {
+    "description": "District name"
+  },
+  "districtPauriGarhwal": "Pauri Garhwal",
+  "@districtPauriGarhwal": {
+    "description": "District name"
+  },
+  "districtPerambalur": "Perambalur",
+  "@districtPerambalur": {
+    "description": "District name"
+  },
+  "districtPeren": "Peren",
+  "@districtPeren": {
+    "description": "District name"
+  },
+  "districtPhek": "Phek",
+  "@districtPhek": {
+    "description": "District name"
+  },
+  "districtPilibhit": "Pilibhit",
+  "@districtPilibhit": {
+    "description": "District name"
+  },
+  "districtPithoragarh": "Pithoragarh",
+  "@districtPithoragarh": {
+    "description": "District name"
+  },
+  "districtPondicherry": "Pondicherry",
+  "@districtPondicherry": {
+    "description": "District name"
+  },
+  "districtPoonamallee": "Poonamallee",
+  "@districtPoonamallee": {
+    "description": "District name"
+  },
+  "districtPoonch": "Poonch",
+  "@districtPoonch": {
+    "description": "District name"
+  },
+  "districtPorbandar": "Porbandar",
+  "@districtPorbandar": {
+    "description": "District name"
+  },
+  "districtPrakasam": "Prakasam",
+  "@districtPrakasam": {
+    "description": "District name"
+  },
+  "districtPratapgarh": "Pratapgarh",
+  "@districtPratapgarh": {
+    "description": "District name"
+  },
+  "districtPudukottai": "Pudukottai",
+  "@districtPudukottai": {
+    "description": "District name"
+  },
+  "districtPune": "Pune",
+  "@districtPune": {
+    "description": "District name"
+  },
+  "districtPurbaBardhaman": "Purba Bardhaman",
+  "@districtPurbaBardhaman": {
+    "description": "District name"
+  },
+  "districtPurbaMedinipur": "Purba Medinipur",
+  "@districtPurbaMedinipur": {
+    "description": "District name"
+  },
+  "districtPuri": "Puri",
+  "@districtPuri": {
+    "description": "District name"
+  },
+  "districtPurnia": "Purnia",
+  "@districtPurnia": {
+    "description": "District name"
+  },
+  "districtPurulia": "Purulia",
+  "@districtPurulia": {
+    "description": "District name"
+  },
+  "districtRaebareli": "Raebareli",
+  "@districtRaebareli": {
+    "description": "District name"
+  },
+  "districtRaichur": "Raichur",
+  "@districtRaichur": {
+    "description": "District name"
+  },
+  "districtRaigad": "Raigad",
+  "@districtRaigad": {
+    "description": "District name"
+  },
+  "districtRaigarhCg": "Raigarh",
+  "@districtRaigarhCg": {
+    "description": "District name"
+  },
+  "districtRaipur": "Raipur",
+  "@districtRaipur": {
+    "description": "District name"
+  },
+  "districtRaisen": "Raisen",
+  "@districtRaisen": {
+    "description": "District name"
+  },
+  "districtRajgarh": "Rajgarh",
+  "@districtRajgarh": {
+    "description": "District name"
+  },
+  "districtRajkot": "Rajkot",
+  "@districtRajkot": {
+    "description": "District name"
+  },
+  "districtRajnandgaon": "Rajnandgaon",
+  "@districtRajnandgaon": {
+    "description": "District name"
+  },
+  "districtRajouri": "Rajouri",
+  "@districtRajouri": {
+    "description": "District name"
+  },
+  "districtRajsamand": "Rajsamand",
+  "@districtRajsamand": {
+    "description": "District name"
+  },
+  "districtRamanagara": "Ramanagara",
+  "@districtRamanagara": {
+    "description": "District name"
+  },
+  "districtRamanathapuram": "Ramanathapuram",
+  "@districtRamanathapuram": {
+    "description": "District name"
+  },
+  "districtRamban": "Ramban",
+  "@districtRamban": {
+    "description": "District name"
+  },
+  "districtRampur": "Rampur",
+  "@districtRampur": {
+    "description": "District name"
+  },
+  "districtRanchi": "Ranchi",
+  "@districtRanchi": {
+    "description": "District name"
+  },
+  "districtRangareddi": "Rangareddi",
+  "@districtRangareddi": {
+    "description": "District name"
+  },
+  "districtRatlam": "Ratlam",
+  "@districtRatlam": {
+    "description": "District name"
+  },
+  "districtRatnagiri": "Ratnagiri",
+  "@districtRatnagiri": {
+    "description": "District name"
+  },
+  "districtRayagada": "Rayagada",
+  "@districtRayagada": {
+    "description": "District name"
+  },
+  "districtReasi": "Reasi",
+  "@districtReasi": {
+    "description": "District name"
+  },
+  "districtRewa": "Rewa",
+  "@districtRewa": {
+    "description": "District name"
+  },
+  "districtRewari": "Rewari",
+  "@districtRewari": {
+    "description": "District name"
+  },
+  "districtRohini": "Rohini",
+  "@districtRohini": {
+    "description": "District name"
+  },
+  "districtRohtak": "Rohtak",
+  "@districtRohtak": {
+    "description": "District name"
+  },
+  "districtRohtas": "Rohtas",
+  "@districtRohtas": {
+    "description": "District name"
+  },
+  "districtRudraprayag": "Rudraprayag",
+  "@districtRudraprayag": {
+    "description": "District name"
+  },
+  "districtRupnagarRopar": "Rupnagar Ropar",
+  "@districtRupnagarRopar": {
+    "description": "District name"
+  },
+  "districtSPaharGanj": "S. Paharganj",
+  "@districtSPaharGanj": {
+    "description": "District name"
+  },
+  "districtSabarkantha": "Sabarkantha",
+  "@districtSabarkantha": {
+    "description": "District name"
+  },
+  "districtSagar": "Sagar",
+  "@districtSagar": {
+    "description": "District name"
+  },
+  "districtSaharanpur": "Saharanpur",
+  "@districtSaharanpur": {
+    "description": "District name"
+  },
+  "districtSaharsa": "Saharsa",
+  "@districtSaharsa": {
+    "description": "District name"
+  },
+  "districtSahibganj": "Sahibganj",
+  "@districtSahibganj": {
+    "description": "District name"
+  },
+  "districtSaidapet": "Saidapet",
+  "@districtSaidapet": {
+    "description": "District name"
+  },
+  "districtSaiha": "Saiha",
+  "@districtSaiha": {
+    "description": "District name"
+  },
+  "districtSalem": "Salem",
+  "@districtSalem": {
+    "description": "District name"
+  },
+  "districtSamastipur": "Samastipur",
+  "@districtSamastipur": {
+    "description": "District name"
+  },
+  "districtSambalpur": "Sambalpur",
+  "@districtSambalpur": {
+    "description": "District name"
+  },
+  "districtSambha": "Sambha",
+  "@districtSambha": {
+    "description": "District name"
+  },
+  "districtSangli": "Sangli",
+  "@districtSangli": {
+    "description": "District name"
+  },
+  "districtSangrur": "Sangrur",
+  "@districtSangrur": {
+    "description": "District name"
+  },
+  "districtSankarankoil": "Sankarankoil",
+  "@districtSankarankoil": {
+    "description": "District name"
+  },
+  "districtSantKabirNagar": "Sant Kabir Nagar",
+  "@districtSantKabirNagar": {
+    "description": "District name"
+  },
+  "districtSantRavidasNagar": "Sant Ravidas Nagar",
+  "@districtSantRavidasNagar": {
+    "description": "District name"
+  },
+  "districtSaraikelaKharsawan": "Saraikela Kharsawan",
+  "@districtSaraikelaKharsawan": {
+    "description": "District name"
+  },
+  "districtSaran": "Saran",
+  "@districtSaran": {
+    "description": "District name"
+  },
+  "districtSatara": "Satara",
+  "@districtSatara": {
+    "description": "District name"
+  },
+  "districtSatna": "Satna",
+  "@districtSatna": {
+    "description": "District name"
+  },
+  "districtSawaiMadhopur": "Sawai Madhopur",
+  "@districtSawaiMadhopur": {
+    "description": "District name"
+  },
+  "districtSenapati": "Senapati",
+  "@districtSenapati": {
+    "description": "District name"
+  },
+  "districtSeoni": "Seoni",
+  "@districtSeoni": {
+    "description": "District name"
+  },
+  "districtSerchhip": "Serchhip",
+  "@districtSerchhip": {
+    "description": "District name"
+  },
+  "districtShahadraN": "Shahadra N",
+  "@districtShahadraN": {
+    "description": "District name"
+  },
+  "districtShahadraS": "Shahadra S",
+  "@districtShahadraS": {
+    "description": "District name"
+  },
+  "districtShahdol": "Shahdol",
+  "@districtShahdol": {
+    "description": "District name"
+  },
+  "districtShahjahanpur": "Shahjahanpur",
+  "@districtShahjahanpur": {
+    "description": "District name"
+  },
+  "districtShajapur": "Shajapur",
+  "@districtShajapur": {
+    "description": "District name"
+  },
+  "districtSheikhpura": "Sheikhpura",
+  "@districtSheikhpura": {
+    "description": "District name"
+  },
+  "districtSheohar": "Sheohar",
+  "@districtSheohar": {
+    "description": "District name"
+  },
+  "districtSheopur": "Sheopur",
+  "@districtSheopur": {
+    "description": "District name"
+  },
+  "districtShimla": "Shimla",
+  "@districtShimla": {
+    "description": "District name"
+  },
+  "districtShimoga": "Shimoga",
+  "@districtShimoga": {
+    "description": "District name"
+  },
+  "districtShivpuri": "Shivpuri",
+  "@districtShivpuri": {
+    "description": "District name"
+  },
+  "districtShravasti": "Shravasti",
+  "@districtShravasti": {
+    "description": "District name"
+  },
+  "districtSibsagar": "Sibsagar",
+  "@districtSibsagar": {
+    "description": "District name"
+  },
+  "districtSiddharthnagar": "Siddharthnagar",
+  "@districtSiddharthnagar": {
+    "description": "District name"
+  },
+  "districtSidhi": "Sidhi",
+  "@districtSidhi": {
+    "description": "District name"
+  },
+  "districtSikar": "Sikar",
+  "@districtSikar": {
+    "description": "District name"
+  },
+  "districtSimdega": "Simdega",
+  "@districtSimdega": {
+    "description": "District name"
+  },
+  "districtSindhudurg": "Sindhudurg",
+  "@districtSindhudurg": {
+    "description": "District name"
+  },
+  "districtSirmaur": "Sirmaur",
+  "@districtSirmaur": {
+    "description": "District name"
+  },
+  "districtSirohi": "Sirohi",
+  "@districtSirohi": {
+    "description": "District name"
+  },
+  "districtSirsa": "Sirsa",
+  "@districtSirsa": {
+    "description": "District name"
+  },
+  "districtSitamarhi": "Sitamarhi",
+  "@districtSitamarhi": {
+    "description": "District name"
+  },
+  "districtSitapur": "Sitapur",
+  "@districtSitapur": {
+    "description": "District name"
+  },
+  "districtSivaganga": "Sivaganga",
+  "@districtSivaganga": {
+    "description": "District name"
+  },
+  "districtSivakasi": "Sivakasi",
+  "@districtSivakasi": {
+    "description": "District name"
+  },
+  "districtSiwan": "Siwan",
+  "@districtSiwan": {
+    "description": "District name"
+  },
+  "districtSolan": "Solan",
+  "@districtSolan": {
+    "description": "District name"
+  },
+  "districtSolapur": "Solapur",
+  "@districtSolapur": {
+    "description": "District name"
+  },
+  "districtSonapurSubarnapur": "Sonapur Subarnapur",
+  "@districtSonapurSubarnapur": {
+    "description": "District name"
+  },
+  "districtSonbhadra": "Sonbhadra",
+  "@districtSonbhadra": {
+    "description": "District name"
+  },
+  "districtSonipat": "Sonipat",
+  "@districtSonipat": {
+    "description": "District name"
+  },
+  "districtSonitpur": "Sonitpur",
+  "@districtSonitpur": {
+    "description": "District name"
+  },
+  "districtSouth": "South",
+  "@districtSouth": {
+    "description": "District name"
+  },
+  "districtSouth24Parganas": "South24 Parganas",
+  "@districtSouth24Parganas": {
+    "description": "District name"
+  },
+  "districtSouthGaroHills": "South Garo Hills",
+  "@districtSouthGaroHills": {
+    "description": "District name"
+  },
+  "districtSouthTripura": "South Tripura",
+  "@districtSouthTripura": {
+    "description": "District name"
+  },
+  "districtSrikakulam": "Srikakulam",
+  "@districtSrikakulam": {
+    "description": "District name"
+  },
+  "districtSultanpur": "Sultanpur",
+  "@districtSultanpur": {
+    "description": "District name"
+  },
+  "districtSundargarh": "Sundargarh",
+  "@districtSundargarh": {
+    "description": "District name"
+  },
+  "districtSupaul": "Supaul",
+  "@districtSupaul": {
+    "description": "District name"
+  },
+  "districtSurat": "Surat",
+  "@districtSurat": {
+    "description": "District name"
+  },
+  "districtSurendranagar": "Surendranagar",
+  "@districtSurendranagar": {
+    "description": "District name"
+  },
+  "districtSurgujaAmbikapur": "Surguja Ambikapur",
+  "@districtSurgujaAmbikapur": {
+    "description": "District name"
+  },
+  "districtTamenglong": "Tamenglong",
+  "@districtTamenglong": {
+    "description": "District name"
+  },
+  "districtTapi": "Tapi",
+  "@districtTapi": {
+    "description": "District name"
+  },
+  "districtTarnTaran": "Tarn Taran",
+  "@districtTarnTaran": {
+    "description": "District name"
+  },
+  "districtTawang": "Tawang",
+  "@districtTawang": {
+    "description": "District name"
+  },
+  "districtTehriGarhwal": "Tehri Garhwal",
+  "@districtTehriGarhwal": {
+    "description": "District name"
+  },
+  "districtThane": "Thane",
+  "@districtThane": {
+    "description": "District name"
+  },
+  "districtThanjavur": "Thanjavur",
+  "@districtThanjavur": {
+    "description": "District name"
+  },
+  "districtTheNilgiris": "The Nilgiris",
+  "@districtTheNilgiris": {
+    "description": "District name"
+  },
+  "districtTheni": "Theni",
+  "@districtTheni": {
+    "description": "District name"
+  },
+  "districtThiruchirapalli": "Thiruchirapalli",
+  "@districtThiruchirapalli": {
+    "description": "District name"
+  },
+  "districtThirunelveli": "Thirunelveli",
+  "@districtThirunelveli": {
+    "description": "District name"
+  },
+  "districtThiruppattur": "Thiruppattur",
+  "@districtThiruppattur": {
+    "description": "District name"
+  },
+  "districtThiruppur": "Thiruppur",
+  "@districtThiruppur": {
+    "description": "District name"
+  },
+  "districtThiruvallore": "Thiruvallore",
+  "@districtThiruvallore": {
+    "description": "District name"
+  },
+  "districtThiruvananthapuram": "Thiruvananthapuram",
+  "@districtThiruvananthapuram": {
+    "description": "District name"
+  },
+  "districtThiruvarur": "Thiruvarur",
+  "@districtThiruvarur": {
+    "description": "District name"
+  },
+  "districtThoothukudi": "Thoothukudi",
+  "@districtThoothukudi": {
+    "description": "District name"
+  },
+  "districtThoubal": "Thoubal",
+  "@districtThoubal": {
+    "description": "District name"
+  },
+  "districtThrissur": "Thrissur",
+  "@districtThrissur": {
+    "description": "District name"
+  },
+  "districtTikamgarh": "Tikamgarh",
+  "@districtTikamgarh": {
+    "description": "District name"
+  },
+  "districtTinsukia": "Tinsukia",
+  "@districtTinsukia": {
+    "description": "District name"
+  },
+  "districtTirap": "Tirap",
+  "@districtTirap": {
+    "description": "District name"
+  },
+  "districtTiruvannamalai": "Tiruvannamalai",
+  "@districtTiruvannamalai": {
+    "description": "District name"
+  },
+  "districtTonk": "Tonk",
+  "@districtTonk": {
+    "description": "District name"
+  },
+  "districtTuensang": "Tuensang",
+  "@districtTuensang": {
+    "description": "District name"
+  },
+  "districtTumkur": "Tumkur",
+  "@districtTumkur": {
+    "description": "District name"
+  },
+  "districtUdaipur": "Udaipur",
+  "@districtUdaipur": {
+    "description": "District name"
+  },
+  "districtUdalguri": "Udalguri",
+  "@districtUdalguri": {
+    "description": "District name"
+  },
+  "districtUdhamSinghNagar": "Udham Singh Nagar",
+  "@districtUdhamSinghNagar": {
+    "description": "District name"
+  },
+  "districtUdhampur": "Udhampur",
+  "@districtUdhampur": {
+    "description": "District name"
+  },
+  "districtUdupi": "Udupi",
+  "@districtUdupi": {
+    "description": "District name"
+  },
+  "districtUjjain": "Ujjain",
+  "@districtUjjain": {
+    "description": "District name"
+  },
+  "districtUkhrul": "Ukhrul",
+  "@districtUkhrul": {
+    "description": "District name"
+  },
+  "districtUmaria": "Umaria",
+  "@districtUmaria": {
+    "description": "District name"
+  },
+  "districtUna": "Una",
+  "@districtUna": {
+    "description": "District name"
+  },
+  "districtUnnao": "Unnao",
+  "@districtUnnao": {
+    "description": "District name"
+  },
+  "districtUpperDibangValley": "Upper Dibang Valley",
+  "@districtUpperDibangValley": {
+    "description": "District name"
+  },
+  "districtUpperSiang": "Upper Siang",
+  "@districtUpperSiang": {
+    "description": "District name"
+  },
+  "districtUpperSubansiri": "Upper Subansiri",
+  "@districtUpperSubansiri": {
+    "description": "District name"
+  },
+  "districtUttarDinajpur": "Uttar Dinajpur",
+  "@districtUttarDinajpur": {
+    "description": "District name"
+  },
+  "districtUttaraKannada": "Uttara Kannada",
+  "@districtUttaraKannada": {
+    "description": "District name"
+  },
+  "districtUttarkashi": "Uttarkashi",
+  "@districtUttarkashi": {
+    "description": "District name"
+  },
+  "districtVadodara": "Vadodara",
+  "@districtVadodara": {
+    "description": "District name"
+  },
+  "districtVaishali": "Vaishali",
+  "@districtVaishali": {
+    "description": "District name"
+  },
+  "districtValsad": "Valsad",
+  "@districtValsad": {
+    "description": "District name"
+  },
+  "districtVaranasi": "Varanasi",
+  "@districtVaranasi": {
+    "description": "District name"
+  },
+  "districtVellore": "Vellore",
+  "@districtVellore": {
+    "description": "District name"
+  },
+  "districtVidisha": "Vidisha",
+  "@districtVidisha": {
+    "description": "District name"
+  },
+  "districtVillupuram": "Villupuram",
+  "@districtVillupuram": {
+    "description": "District name"
+  },
+  "districtVirudhunagar": "Virudhunagar",
+  "@districtVirudhunagar": {
+    "description": "District name"
+  },
+  "districtVisakhapatnam": "Visakhapatnam",
+  "@districtVisakhapatnam": {
+    "description": "District name"
+  },
+  "districtVizianagaram": "Vizianagaram",
+  "@districtVizianagaram": {
+    "description": "District name"
+  },
+  "districtWarangal": "Warangal",
+  "@districtWarangal": {
+    "description": "District name"
+  },
+  "districtWardha": "Wardha",
+  "@districtWardha": {
+    "description": "District name"
+  },
+  "districtWashim": "Washim",
+  "@districtWashim": {
+    "description": "District name"
+  },
+  "districtWayanad": "Wayanad",
+  "@districtWayanad": {
+    "description": "District name"
+  },
+  "districtWest": "West",
+  "@districtWest": {
+    "description": "District name"
+  },
+  "districtWestChamparan": "West Champaran",
+  "@districtWestChamparan": {
+    "description": "District name"
+  },
+  "districtWestGaroHills": "West Garo Hills",
+  "@districtWestGaroHills": {
+    "description": "District name"
+  },
+  "districtWestGodavari": "West Godavari",
+  "@districtWestGodavari": {
+    "description": "District name"
+  },
+  "districtWestKameng": "West Kameng",
+  "@districtWestKameng": {
+    "description": "District name"
+  },
+  "districtWestKhasiHills": "West Khasi Hills",
+  "@districtWestKhasiHills": {
+    "description": "District name"
+  },
+  "districtWestSiang": "West Siang",
+  "@districtWestSiang": {
+    "description": "District name"
+  },
+  "districtWestSinghbhum": "West Singhbhum",
+  "@districtWestSinghbhum": {
+    "description": "District name"
+  },
+  "districtWestTripura": "West Tripura",
+  "@districtWestTripura": {
+    "description": "District name"
+  },
+  "districtWokha": "Wokha",
+  "@districtWokha": {
+    "description": "District name"
+  },
+  "districtYamunanagar": "Yamunanagar",
+  "@districtYamunanagar": {
+    "description": "District name"
+  },
+  "districtYawatmal": "Yawatmal",
+  "@districtYawatmal": {
+    "description": "District name"
+  },
+  "districtZunheboto": "Zunheboto",
+  "@districtZunheboto": {
+    "description": "District name"
+  }
 }

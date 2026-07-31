@@ -13,6 +13,10 @@ dependencies:
 
   flutter_localizations:
     sdk: flutter
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  path_provider: ^2.1.5
+  share_plus: ^10.1.4
 
   cupertino_icons: ^1.0.8
   flutter_riverpod: ^2.6.1
@@ -23,23 +27,31 @@ dependencies:
   flutter_secure_storage: ^9.2.4
   firebase_core: ^4.12.1
   firebase_auth: ^6.5.6
-  pin_code_fields: ^8.0.1
-  speech_to_text: ^7.4.0
-  flutter_tts: ^4.2.5
-  permission_handler: ^12.0.3
-  intl: ^0.20.2
-  flutter_svg: ^2.2.1
-  shared_preferences: ^2.5.5
   cloud_firestore: ^6.7.1
   firebase_storage: ^13.4.5
   firebase_messaging: ^16.4.3
   firebase_analytics: ^12.4.5
+
+  pin_code_fields: ^8.0.1
+  speech_to_text: ^7.4.0
+  flutter_tts: ^4.2.5
+  permission_handler: ^12.0.3
+  provider: ^6.1.5
+
+  geolocator: ^14.0.2
+ 
+  flutter_animate: ^4.5.2
+
+  intl: ^0.20.2
+  flutter_svg: ^2.2.1
+  shared_preferences: ^2.5.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
 
 flutter:
   uses-material-design: true
@@ -47,3 +59,16 @@ flutter:
 
   assets:
     - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+
+  image_path: "assets/images/kamaai_logo.png"
+
+  adaptive_icon_background: "#2E7D32"
+  adaptive_icon_foreground: "assets/images/kamaai_logo.png"
+
+  min_sdk_android: 21
+
+  remove_alpha_ios: true

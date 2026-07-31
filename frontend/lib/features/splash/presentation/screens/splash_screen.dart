@@ -1,8 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../services/storage_service.dart';
-import '../../../language/presentation/screens/language_selection_screen.dart';
-// import '../../../auth/presentation/screens/login_screen.dart';
+import '../../../../core/constants/app_routes.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -23,23 +23,27 @@ class _SplashScreenState extends State<SplashScreen> {
 
     if (!mounted) return;
 
-    final languageSelected =
-        StorageService.isLanguageSelected();
+    final languageSelected = StorageService.isLanguageSelected();
 
-    if (languageSelected) {
-      // TODO:
-      // Navigator.pushReplacement(
-      //   context,
-      //   MaterialPageRoute(
-      //     builder: (_) => const LoginScreen(),
-      //   ),
-      // );
-    } else {
-      Navigator.pushReplacement(
+    if (!languageSelected) {
+      Navigator.pushReplacementNamed(
         context,
-        MaterialPageRoute(
-          builder: (_) => const LanguageSelectionScreen(),
-        ),
+        AppRoutes.language,
+      );
+      return;
+    }
+
+    final user = FirebaseAuth.instance.currentUser;
+
+    if (user != null) {
+      Navigator.pushReplacementNamed(
+        context,
+        AppRoutes.dashboard,
+      );
+    } else {
+      Navigator.pushReplacementNamed(
+        context,
+        AppRoutes.login,
       );
     }
   }

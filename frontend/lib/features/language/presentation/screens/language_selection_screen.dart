@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../auth/presentation/screens/login_screen.dart';
+import '../../../auth/screens/auth_selection_screen.dart';
 import '../../data/language_aliases.dart';
 import '../../../../core/localization/language_model.dart';
 import '../../data/stt_service.dart';
@@ -254,9 +254,11 @@ class _LanguageSelectionScreenState
     if (!mounted) return;
     setState(() => _isSaving = false);
 
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (_) => const LoginScreen()),
-    );
+  Navigator.of(context).pushReplacement(
+  MaterialPageRoute(
+    builder: (_) => const AuthSelectionScreen(),
+  ),
+);
   }
 
   void _showSnackbar(String message) {
